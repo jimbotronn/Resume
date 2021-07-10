@@ -22,13 +22,13 @@ const Slider = () => {
             <div className="name_wrap">
               <h3>
                 <span>
-                  Bostami
+                  Jimi Yu
                   <br />
                 </span>{" "}
                 <TextLoop>
-                  <span className="loop-text">Web Developer</span>
-                  <span className="loop-text"> UI/UX Designer.</span>
-                  <span className="loop-text"> Content Creator.</span>
+                  <span className="loop-text"> Enterprise Architect.</span>
+                  <span className="loop-text"> Consultant.</span>
+                  <span className="loop-text"> Business Analyst.</span>
                 </TextLoop>{" "}
                 <span className="overlay_effect"></span>
               </h3>
