@@ -9,12 +9,12 @@ const AboutFour = () => {
             <div className="about_inner">
               <div className="left">
                 <div className="image">
-                  <img src="/img/placeholders/1-1.jpg" alt="placeholder" />
+                  <img src="/img/about/AboutMe.jpeg" alt="placeholder" />
                   <div
                     className="main"
                     style={{
                       backgroundImage: `url(${
-                        process.env.PUBLIC_URL + "img/about/4.jpg"
+                        process.env.PUBLIC_URL + "/img/about/AboutMe.jpeg"
                       })`,
                     }}
                   ></div>
@@ -26,15 +26,11 @@ const AboutFour = () => {
               <div className="right">
                 <div className="shane_tm_title">
                   <span>About Me</span>
-                  <h3>Creative Independent Web Developer based in Australia</h3>
+                  <h3>An innovative and result-oriented professional</h3>
                 </div>
                 <div className="text">
                   <p>
-                    I'm web designer, and I'm very passionate and dedicated to
-                    my work. With 20 years experience as a professional web
-                    developer, I have acquired the skills and knowledge
-                    necessary to make your project a success. I enjoy every step
-                    of the design process, from discussion and collaboration.
+                    I have 10+ years of success leading technology innovation transformation, delivering integrated enterprise cloud solutions and creating an Information Technology roadmap in alignment with business strategies and initiatives.  History of analyzing technology trends, leveraging existing and emerging technologies to uncover opportunities and develop trailblazing strategies to improve operations, break down complex projects into steps that drive business process improvement, reduce risks, maintaining scalability, and increase efficiencies.   
                   </p>
                 </div>
                 <div className="shane_tm_button">
