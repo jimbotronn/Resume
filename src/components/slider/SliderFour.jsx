@@ -27,8 +27,8 @@ const Slider = () => {
                 </span>{" "}
                 <TextLoop>
                   <span className="loop-text"> Enterprise Architect.</span>
-                  <span className="loop-text"> Consultant.</span>
-                  <span className="loop-text"> Business Analyst.</span>
+                  <span className="loop-text"> Technical Consultant.</span>
+                  <span className="loop-text"> System Analyst.</span>
                 </TextLoop>{" "}
                 <span className="overlay_effect"></span>
               </h3>
@@ -37,7 +37,7 @@ const Slider = () => {
 
             <div className="job_wrap">
               <span className="job">
-                based in USA.
+                based in Columbus, Ohio.
                 <span className="overlay_effect"></span>
               </span>
             </div>
