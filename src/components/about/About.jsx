@@ -11,12 +11,12 @@ const About = () => {
               <div className="left">
                 <Reveal effect="fadeInLeft">
                   <div className="image">
-                    <img src="/img/placeholders/1-1.jpg" alt="placeholder" />
+                    <img src="/img/about/AboutMe.jpeg" alt="placeholder" />
                     <div
                       className="main"
                       style={{
                         backgroundImage: `url(${
-                          process.env.PUBLIC_URL + "img/about/1.jpg"
+                          process.env.PUBLIC_URL + "/img/about/AboutMe.jpeg"
                         })`,
                       }}
                     ></div>
