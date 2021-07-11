@@ -9,12 +9,12 @@ const AboutFour = () => {
             <div className="about_inner">
               <div className="left">
                 <div className="image">
-                  <img src="/img/about/AboutMe.jpeg" alt="placeholder" />
+                  <img src="/img/placeholders/1-1.jpg" alt="placeholder" />
                   <div
                     className="main"
                     style={{
                       backgroundImage: `url(${
-                        process.env.PUBLIC_URL + "/img/about/AboutMe.jpeg"
+                        process.env.PUBLIC_URL + "img/about/4.jpg"
                       })`,
                     }}
                   ></div>
@@ -38,7 +38,7 @@ const AboutFour = () => {
                   </p>
                 </div>
                 <div className="shane_tm_button">
-                  <a href="/img/resume/resume.jpg" download>
+                  <a href="img/resume/resume.jpg" download>
                     Download CV
                   </a>
                 </div>

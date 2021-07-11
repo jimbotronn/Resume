@@ -10,7 +10,7 @@ const Slider = () => {
             className="image"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "/img/slider/3.jpg"
+                process.env.PUBLIC_URL + "img/slider/3.jpg"
               })`,
             }}
           ></div>
@@ -22,13 +22,13 @@ const Slider = () => {
             <div className="name_wrap">
               <h3>
                 <span>
-                  Jimi Yu
+                  Bostami
                   <br />
                 </span>{" "}
                 <TextLoop>
-                  <span className="loop-text"> Enterprise Architect.</span>
-                  <span className="loop-text"> Technical Consultant.</span>
-                  <span className="loop-text"> System Analyst.</span>
+                  <span className="loop-text">Web Developer</span>
+                  <span className="loop-text"> UI/UX Designer.</span>
+                  <span className="loop-text"> Content Creator.</span>
                 </TextLoop>{" "}
                 <span className="overlay_effect"></span>
               </h3>
@@ -37,7 +37,7 @@ const Slider = () => {
 
             <div className="job_wrap">
               <span className="job">
-                based in Columbus, Ohio.
+                based in USA.
                 <span className="overlay_effect"></span>
               </span>
             </div>
