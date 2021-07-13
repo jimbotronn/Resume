@@ -12,7 +12,7 @@ import CallToAction from "../../components/calltoactions/CallToActionTwo";
 import Footer from "../../components/footer/Footer";
 import Reveal from "react-reveal/Reveal";
 
-const HomeTwo = () => {
+const HomeFour = () => {
   return (
     <div className="home-four">
       <Header />
