@@ -16,7 +16,7 @@ const Routes = () => {
           <Route path="/home-one" component={HomeOne} />
           <Route path="/home-two" component={HomeTwo} />
           <Route path="/home-three" component={HomeThree} />
-          <Route path="/home-four/" component={HomeFour} />
+          <Route path="/resume/" component={HomeFour} />
           <Route component={NotFound} />
         </Switch>
       </Router>
