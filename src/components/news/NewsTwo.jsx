@@ -34,7 +34,7 @@ const NewsTwo = () => {
               <Reveal effect="fadeInLeft">
                 <li>
                   <div className="list_inner">
-                    <div className="image" onClick={toggleModalOne}>
+                    <div className="image" style="height:60%;" onClick={toggleModalOne}>
                       <img src="/img/placeholders/4-3.jpg" alt="thumb" />
                       <div
                         className="main"
@@ -76,7 +76,7 @@ const NewsTwo = () => {
                         {/* End close icon */}
                         <div className="box_inner">
                           <div className="description_wrap scrollable">
-                            <div className="image">
+                            <div className="image" style="height:60%;">
                               <img
                                 src="/resume/img/placeholders/4-3.jpg"
                                 alt="thumb"
@@ -93,12 +93,10 @@ const NewsTwo = () => {
                             {/* End image */}
                             <div className="details">
                               <h3 className="title">
-                                How to be appreciated for your hard work as a
-                                developer
+                              Senior Enterprise System Architect
                               </h3>
                               <p className="date">
-                                By <a href="#">Brook Kennedy</a>{" "}
-                                <span>07 April 2020</span>
+                              @ Wexner Medical Center <span>Apr 18 - Jan 21</span>
                               </p>
                             </div>
                             {/* End details */}
@@ -151,10 +149,6 @@ const NewsTwo = () => {
                               </p>
                             </div>
                             {/* End description */}
-                            <div className="news_share">
-                              <Social />
-                              {/* End social share */}
-                            </div>
                             {/* End news share */}
                           </div>
                         </div>
