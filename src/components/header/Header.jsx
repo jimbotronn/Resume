@@ -23,8 +23,8 @@ const Header = () => {
       <div className="shane_tm_topbar">
         <div className={navbar ? "topbar_inner opened" : "topbar_inner"}>
           <div className="logo">
-            <NavLink to="/resume/">
-              <img src="/img/logo/new/dark.png" alt="partners brand" />
+            <NavLink to="/">
+              <img src="/resume/img/logo/new/dark.png" alt="partners brand" />
             </NavLink>
           </div>
           {/* End logo */}
@@ -65,7 +65,7 @@ const Header = () => {
             <div className="topbar_in">
               <div className="logo">
                 <NavLink to="/">
-                  <img src="/img/logo/new/dark.png" alt="partners brand" />
+                  <img src="/resume/img/logo/new/dark.png" alt="partners brand" />
                 </NavLink>
               </div>
               {/* End logo */}

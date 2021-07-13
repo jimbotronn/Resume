@@ -19,12 +19,12 @@ const CallToAction = () => {
         className="shane_tm_talk bg_image_props"
         style={{
           backgroundImage: `url(${
-            process.env.PUBLIC_URL + "img/callto-action/1.jpg"
+            process.env.PUBLIC_URL + "/resumeimg/callto-action/1.jpg"
           })`,
         }}
       >
         <div className="shape">
-          <img className="svg" src="/img/svg/paper.svg" alt="partners brand" />
+          <img className="svg" src="/resume/img/svg/paper.svg" alt="partners brand" />
         </div>
         {/* End shape */}
 
@@ -57,7 +57,7 @@ const CallToAction = () => {
       >
         <div className="shane_tm_mobalbox_contact">
           <button className="close-modal" onClick={toggleModalOne}>
-            <img src="/img/svg/cancel.svg" alt="close icon" />
+            <img src="/resume/img/svg/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
           <div className="box_inner">
@@ -90,7 +90,7 @@ const CallToAction = () => {
                     <div className="list_inner">
                       <img
                         className="svg"
-                        src="img/svg/location.svg"
+                        src="/resume/img/svg/location.svg"
                         alt="location"
                       />
                       <p>Brook 103, 90021 New York, USA</p>
@@ -102,7 +102,7 @@ const CallToAction = () => {
                     <div className="list_inner">
                       <img
                         className="svg"
-                        src="img/svg/phone.svg"
+                        src="/resume/img/svg/phone.svg"
                         alt="phone"
                       />
                       <p>
@@ -116,7 +116,7 @@ const CallToAction = () => {
                     <div className="list_inner">
                       <img
                         className="svg"
-                        src="img/svg/share.svg"
+                        src="/resume/img/svg/share.svg"
                         alt="share"
                       />
 

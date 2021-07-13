@@ -71,7 +71,7 @@ const NewsTwo = () => {
                           className="close-modal"
                           onClick={toggleModalOne}
                         >
-                          <img src="/img/svg/cancel.svg" alt="close icon" />
+                          <img src="/resume/img/svg/cancel.svg" alt="close icon" />
                         </button>
                         {/* End close icon */}
                         <div className="box_inner">
@@ -207,7 +207,7 @@ const NewsTwo = () => {
                           className="close-modal"
                           onClick={toggleModalTwo}
                         >
-                          <img src="/img/svg/cancel.svg" alt="close icon" />
+                          <img src="/resume/img/svg/cancel.svg" alt="close icon" />
                         </button>
                         {/* End close modal */}
                         <div className="box_inner">
@@ -343,7 +343,7 @@ const NewsTwo = () => {
                           className="close-modal"
                           onClick={toggleModalThree}
                         >
-                          <img src="/img/svg/cancel.svg" alt="close icon" />
+                          <img src="/resume/img/svg/cancel.svg" alt="close icon" />
                         </button>
                         {/* END CLOSE MODAL */}
                         <div className="box_inner">
