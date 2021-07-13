@@ -22,7 +22,7 @@ const Slider = () => {
             <div className="name_wrap">
               <h3>
                 <span>
-                  Hi! I'm Jimi Yu
+                  Jimi Yu
                   <br />
                 </span>{" "}
                 <TextLoop>
@@ -37,7 +37,7 @@ const Slider = () => {
 
             <div className="job_wrap">
               <span className="job">
-                based in USA.
+                based in Columbus, Ohio.
                 <span className="overlay_effect"></span>
               </span>
             </div>

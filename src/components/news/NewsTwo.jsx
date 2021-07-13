@@ -40,7 +40,7 @@ const NewsTwo = () => {
                         className="main"
                         style={{
                           backgroundImage: `url(${
-                            process.env.PUBLIC_URL + "/img/news/4.jpg"
+                            process.env.PUBLIC_URL + "/img/news/wexner.jpg"
                           })`,
                         }}
                       ></div>
