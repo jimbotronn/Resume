@@ -40,7 +40,7 @@ const NewsTwo = () => {
                         className="main"
                         style={{
                           backgroundImage: `url(${
-                            process.env.PUBLIC_URL + "img/news/4.jpg"
+                            process.env.PUBLIC_URL + "/img/news/4.jpg"
                           })`,
                         }}
                       ></div>
@@ -52,7 +52,7 @@ const NewsTwo = () => {
                         Senior Enterprise System Architect
                       </h3>
                       <p className="date">
-                        @ Wexner Medical Center <span>April 2018 - January 2021</span>
+                        @ Wexner Medical Center <span>Apr 18 - Jan 21</span>
                       </p>
                     </div>
                     {/* End details */}
@@ -85,7 +85,7 @@ const NewsTwo = () => {
                                 className="main"
                                 style={{
                                   backgroundImage: `url(${
-                                    process.env.PUBLIC_URL + "img/news/4.jpg"
+                                    process.env.PUBLIC_URL + "/img/news/4.jpg"
                                   })`,
                                 }}
                               ></div>
@@ -176,7 +176,7 @@ const NewsTwo = () => {
                         className="main"
                         style={{
                           backgroundImage: `url(${
-                            process.env.PUBLIC_URL + "img/news/9.jpg"
+                            process.env.PUBLIC_URL + "/img/news/9.jpg"
                           })`,
                         }}
                       ></div>
@@ -221,7 +221,7 @@ const NewsTwo = () => {
                                 className="main"
                                 style={{
                                   backgroundImage: `url(${
-                                    process.env.PUBLIC_URL + "img/news/9.jpg"
+                                    process.env.PUBLIC_URL + "/img/news/9.jpg"
                                   })`,
                                 }}
                               ></div>
@@ -311,7 +311,7 @@ const NewsTwo = () => {
                         className="main"
                         style={{
                           backgroundImage: `url(${
-                            process.env.PUBLIC_URL + "img/news/8.jpg"
+                            process.env.PUBLIC_URL + "/img/news/8.jpg"
                           })`,
                         }}
                       ></div>
@@ -357,7 +357,7 @@ const NewsTwo = () => {
                                 className="main"
                                 style={{
                                   backgroundImage: `url(${
-                                    process.env.PUBLIC_URL + "img/news/8.jpg"
+                                    process.env.PUBLIC_URL + "/img/news/8.jpg"
                                   })`,
                                 }}
                               ></div>
