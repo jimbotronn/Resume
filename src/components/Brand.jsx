@@ -24,22 +24,22 @@ export default function SimpleSlider() {
     <ul>
       <Slider {...settings}>
         <li className="item">
-          <img src="/img/partners/1.png" alt="partners brand" />
+          <img src="/resume/img/partners/1.png" alt="partners brand" />
         </li>
         {/* End single brand */}
 
         <li className="item">
-          <img src="/img/partners/2.png" alt="partners brand" />
+          <img src="/resume/img/partners/2.png" alt="partners brand" />
         </li>
         {/* End single brand */}
 
         <li className="item">
-          <img src="/img/partners/3.png" alt="partners brand" />
+          <img src="/resume/img/partners/3.png" alt="partners brand" />
         </li>
         {/* End single brand */}
 
         <li className="item">
-          <img src="/img/partners/4.png" alt="partners brand" />
+          <img src="/resume/img/partners/4.png" alt="partners brand" />
         </li>
         {/* End single brand */}
 

@@ -33,7 +33,7 @@ export default function ScrollToTop() {
       {isVisible && (
         <Reveal effect="fadeInUp">
           <div onClick={scrollToTop} className="scroll_up">
-            <img src="/img/arrow-up.svg" alt="scroll up" />
+            <img src="/resume/img/arrow-up.svg" alt="scroll up" />
           </div>
         </Reveal>
       )}
