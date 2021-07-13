@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="shane_tm_all_wrap">
       <ScrollToTop />
-      <Routes />
+      <Routes basename={process.env.PUBLIC_URL}/>
     </div>
   );
 };
