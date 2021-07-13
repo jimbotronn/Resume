@@ -93,10 +93,12 @@ const NewsTwo = () => {
                             {/* End image */}
                             <div className="details">
                               <h3 className="title">
-                              Senior Enterprise System Architect
+                                How to be appreciated for your hard work as a
+                                developer
                               </h3>
                               <p className="date">
-                              @ Wexner Medical Center <span>Apr 18 - Jan 21</span>
+                                By <a href="#">Brook Kennedy</a>{" "}
+                                <span>07 April 2020</span>
                               </p>
                             </div>
                             {/* End details */}
@@ -149,6 +151,10 @@ const NewsTwo = () => {
                               </p>
                             </div>
                             {/* End description */}
+                            <div className="news_share">
+                              <Social />
+                              {/* End social share */}
+                            </div>
                             {/* End news share */}
                           </div>
                         </div>
