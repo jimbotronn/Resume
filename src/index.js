@@ -4,7 +4,7 @@ import reportWebVitals from "./reportWebVitals";
 import "./assets/scss/style.scss";
 
 ReactDOM.render(
-  basename={process.env.PUBLIC_URL}><App />,
+  <App />,
   document.getElementById("root"),
   document.body.classList.add("loaded")
 );
