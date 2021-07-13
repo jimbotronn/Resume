@@ -24,14 +24,14 @@ const HomeTwo = () => {
       <About />
       {/* End About Section */}
 
-      <Portfolio />
-      {/* End Portfolio Section */}
+     {/* <Portfolio />
+     End Portfolio Section */}
 
       <Skills />
       {/* End Skills Section */}
 
-      <Video />
-      {/* End Video Section */}
+     {/* <Video />
+      End Video Section */}
 
       <div className="shane_tm_section">
         <div className="shane_tm_partners">

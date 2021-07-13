@@ -16,7 +16,7 @@ const About = () => {
                       className="main"
                       style={{
                         backgroundImage: `url(${
-                          process.env.PUBLIC_URL + "/img/about/AboutMe.jpeg"
+                          process.env.PUBLIC_URL + "/img/about/1.jpg"
                         })`,
                       }}
                     ></div>
@@ -34,7 +34,14 @@ const About = () => {
                   </div>
                   <div className="text">
                     <p>
-                    I have 10+ years of success leading technology innovation transformation, delivering integrated enterprise cloud solutions and creating an Information Technology roadmap in alignment with business strategies and initiatives.  History of analyzing technology trends, leveraging existing and emerging technologies to uncover opportunities and develop trailblazing strategies to improve operations, break down complex projects into steps that drive business process improvement, reduce risks, maintaining scalability, and increase efficiencies.   
+                    I have 10+ years of success leading technology innovation transformation, 
+                    delivering integrated enterprise cloud solutions and creating an Information 
+                    Technology roadmap in alignment with business strategies and initiatives.<br></br>  
+                    History of analyzing technology trends, leveraging existing and emerging 
+                    technologies to uncover opportunities and develop trailblazing strategies to 
+                    improve operations, break down complex projects into steps that drive business 
+                    process improvement, reduce risks, maintaining scalability, and increase 
+                    efficiencies.   
                     </p>
                   </div>
                   <div className="shane_tm_button">

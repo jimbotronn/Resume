@@ -25,8 +25,8 @@ const NewsTwo = () => {
       <div className="shane_tm_news">
         <div className="container">
           <div className="shane_tm_title">
-            <span>News</span>
-            <h3>Latest News</h3>
+            <span>Experience</span>
+            <h3>Work Experience</h3>
           </div>
           {/* End shane_tm_title */}
           <div className="news_list">
@@ -49,10 +49,10 @@ const NewsTwo = () => {
 
                     <div className="details">
                       <h3 className="title" onClick={toggleModalOne}>
-                        Developers watch out for these burnout symptoms
+                        Senior Enterprise System Architect
                       </h3>
                       <p className="date">
-                        By <a href="#">Alex Watson</a> <span>20 May 2020</span>
+                        @ Wexner Medical Center <span>April 2018 - January 2021</span>
                       </p>
                     </div>
                     {/* End details */}
