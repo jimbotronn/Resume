@@ -34,7 +34,7 @@ const NewsTwo = () => {
               <Reveal effect="fadeInLeft">
                 <li>
                   <div className="list_inner">
-                    <div className="image" style="height:60%;" onClick={toggleModalOne}>
+                    <div className="image" onClick={toggleModalOne}>
                       <img src="/img/placeholders/4-3.jpg" alt="thumb" />
                       <div
                         className="main"
@@ -76,7 +76,7 @@ const NewsTwo = () => {
                         {/* End close icon */}
                         <div className="box_inner">
                           <div className="description_wrap scrollable">
-                            <div className="image" style="height:60%;">
+                            <div className="image">
                               <img
                                 src="/resume/img/placeholders/4-3.jpg"
                                 alt="thumb"
