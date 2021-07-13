@@ -832,6 +832,7 @@ body.loaded .overlay_effect:after {
 .shane_tm_about .left {
   width: 50%;
   padding-right: 50px;
+  height: 40vw;
 }
 .shane_tm_about .left .image {
   position: relative;
@@ -839,6 +840,7 @@ body.loaded .overlay_effect:after {
 .shane_tm_about .left .image img {
   min-width: 100%;
   opacity: 0;
+  height: 40vw;
 }
 .shane_tm_about .left .main {
   position: absolute;
@@ -1590,6 +1592,7 @@ ul.react-tabs__tab-list {
 .shane_tm_news .news_list ul li .image {
   position: relative;
   overflow: hidden;
+  height: 100%;
 }
 .shane_tm_news .news_list ul li .image img {
   min-width: 100%;
