@@ -78,7 +78,7 @@ const NewsTwo = () => {
                           <div className="description_wrap scrollable">
                             <div className="image">
                               <img
-                                src="/img/placeholders/4-3.jpg"
+                                src="/resume/img/placeholders/4-3.jpg"
                                 alt="thumb"
                               />
                               <div
