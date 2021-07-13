@@ -23,7 +23,7 @@ const Header = () => {
       <div className="shane_tm_topbar">
         <div className={navbar ? "topbar_inner opened" : "topbar_inner"}>
           <div className="logo">
-            <NavLink to="/">
+            <NavLink to="/resume/">
               <img src="/img/logo/new/dark.png" alt="partners brand" />
             </NavLink>
           </div>
@@ -50,16 +50,7 @@ const Header = () => {
               <li>
                 <a href="#contact">Contact</a>
               </li>
-              <li>
-                <a
-                  className="white-fill-bg btn-outline btn_sm"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://themeforest.net/item/shane-react-personal-portfolio-template/32642263"
-                >
-                  Buy Now
-                </a>
-              </li>
+           
             </Scrollspy>
           </div>
           {/* End menu */}
@@ -127,16 +118,7 @@ const Header = () => {
                     Contact
                   </a>
                 </li>
-                <li>
-                  <a
-                    className="white-fill-bg btn-outline btn_sm"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://themeforest.net/"
-                  >
-                    Buy Now
-                  </a>
-                </li>
+
               </ul>
               <div className="social-menu">
                 <Social />
