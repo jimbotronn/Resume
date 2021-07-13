@@ -12,10 +12,10 @@ const Routes = () => {
     <>
       <Router>
         <Switch>
+          <Route exact path="/" component={HomeFour} />
           <Route path="/home-one" component={HomeOne} />
           <Route path="/home-two" component={HomeTwo} />
           <Route path="/home-three" component={HomeThree} />
-          <Route path="/resume/" component={HomeFour} />
           <Route component={NotFound} />
         </Switch>
       </Router>
