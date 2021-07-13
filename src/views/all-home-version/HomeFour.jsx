@@ -79,4 +79,4 @@ const HomeFour = () => {
   );
 };
 
-export default HomeTwo;
+export default HomeFour;
