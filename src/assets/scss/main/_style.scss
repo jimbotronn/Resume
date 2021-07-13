@@ -1563,7 +1563,7 @@ ul.react-tabs__tab-list {
   height: auto;
   clear: both;
   float: left;
-  padding-top: 90px;
+  padding-top: 35px;
   @media screen and (max-width: 992px) {
     padding-top: 35px;
   }
@@ -1590,6 +1590,7 @@ ul.react-tabs__tab-list {
 .shane_tm_news .news_list ul li .image {
   position: relative;
   overflow: hidden;
+  height: 60%;
 }
 .shane_tm_news .news_list ul li .image img {
   min-width: 100%;
