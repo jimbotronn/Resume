@@ -55,6 +55,7 @@ const Timeline = () => {
     <p>
       Creative Direction, User Experience, Visual Design, Project Management, Team Leading
     </p>
+    </div>
   </VerticalTimelineElement>
   <Modal
                       isOpen={isOpen}
