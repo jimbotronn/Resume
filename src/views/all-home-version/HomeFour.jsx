@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import Slider from "../../components/slider/SliderFour";
-import About from "../../components/about/About";
+import About from "../../components/about/AboutFour";
 import Portfolio from "../../components/portfolio/PortfolioTwo";
 import Skills from "../../components/skills/SkillsTwo";
 import Video from "../../components/video/VideoTwo";
@@ -11,6 +11,7 @@ import News from "../../components/news/NewsTwo";
 import CallToAction from "../../components/calltoactions/CallToActionTwo";
 import Footer from "../../components/footer/Footer";
 import Reveal from "react-reveal/Reveal";
+import Timeline from "../../components/Timeline/Timeline"
 
 const HomeFour = () => {
   return (
@@ -26,6 +27,8 @@ const HomeFour = () => {
 
      {/* <Portfolio />
      End Portfolio Section */}
+
+      <Timeline />
 
       <Skills />
       {/* End Skills Section */}
