@@ -162,7 +162,7 @@ const Timeline = () => {
   </VerticalTimelineElement>
   </div><br></br><br></br>
   <Modal
-                      isOpen={isOpen}
+                      isOpen={isOpen2}
                       onRequestClose={toggleModalTwo}
                       contentLabel="My dialog"
                       className="custom-modal"
@@ -274,7 +274,7 @@ const Timeline = () => {
   </VerticalTimelineElement>
   </div>
   <Modal
-                      isOpen={isOpen}
+                      isOpen={isOpen3}
                       onRequestClose={toggleModalThree}
                       contentLabel="My dialog"
                       className="custom-modal"
