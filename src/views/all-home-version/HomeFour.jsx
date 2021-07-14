@@ -28,11 +28,10 @@ const HomeFour = () => {
      {/* <Portfolio />
      End Portfolio Section */}
 
-<div className="shane_tm_section">
+           <div className="shane_tm_section">
         <div className="shane_tm_partners">
           <div className="container">
             <div className="partners_inner">
-
               <Brand />
             </div>
           </div>
