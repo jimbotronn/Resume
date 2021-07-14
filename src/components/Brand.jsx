@@ -21,6 +21,9 @@ export default function SimpleSlider() {
     ],
   };
   return (
+    <div className="shane_tm_title">
+    <span>Education</span>
+  </div>
     <ul>
       <Slider {...settings}>
         <li className="item">
@@ -28,8 +31,9 @@ export default function SimpleSlider() {
           <img src="/resume/img/partners/1.png" alt="partners brand" />
           </div>
           <div className="itemName1">
-            <h6 >The Ohio State Universite</h6>
+            <h6 style="color:#bb0000;">The Ohio State Universite</h6>
             <p>B.S. Computer Science and Engineering</p>
+            <P>2003 - 2008</P>
           </div>
       </li>
       <li className="item">
@@ -37,8 +41,9 @@ export default function SimpleSlider() {
           <img src="/resume/img/partners/2.png" alt="partners brand" />
           </div>
           <div className="itemName2">
-            <h6 >Capital University</h6>
-            <p>MBA</p>
+            <h6 style="color:#35297f;">Capital University</h6>
+            <p>Master of Business Administration (MBA)</p>
+            <P>2015 - 2017</P>
           </div>
       </li>
        
