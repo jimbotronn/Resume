@@ -32,15 +32,10 @@ const PortfolioTwo = () => {
                   <div className="portfolio_list">
                     <SRLWrapper>
                       <TabPanel>
-                        <ul className="gallery_zoom">
+                        <ul className="gallery_zoom" alt="Web">
                           <li>
-                             <div className="inner">
-                                <div className="mobile_title">
-                                  <h3>Sweet Fruit</h3>
-                                  <span>Design</span>
-                                </div>
-                              </div>
-                            </li>
+                                                             <h3>HTML</h3>
+                                                      </li>
                           {/* End single image block */}
 
                           <li>
