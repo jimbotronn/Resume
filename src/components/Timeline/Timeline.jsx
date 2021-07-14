@@ -4,6 +4,8 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Timeline = () => {
     return (
+
+        <div className="shane_tm_section" id="timeline">
 <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -97,6 +99,7 @@ const Timeline = () => {
   
   />
 </VerticalTimeline>
+</div>
   );
 };
 
