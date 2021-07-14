@@ -152,7 +152,7 @@ const Timeline = () => {
     className="vertical-timeline-element--work"
     date="2008 - 2015"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    position={right}
+    position="right"
    >
     <h3 className="vertical-timeline-element-title">System Administrator</h3>
     <h3 className="vertical-timeline-element-subtitle">The Ohio State University</h3>
@@ -160,8 +160,7 @@ const Timeline = () => {
       User Experience, Visual Design
     </p>
   </VerticalTimelineElement>
-  </div>
-
+  </div><br></br><br></br>
   <Modal
                       isOpen={isOpen}
                       onRequestClose={toggleModalTwo}
@@ -388,20 +387,6 @@ const Timeline = () => {
       Creative Direction, User Experience, Visual Design, SEO, Online Marketing
     </p>
 
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2008 - 2010"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    onClick={toggleModalTwo}
-   
-  >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-    <p>
-      User Experience, Visual Design
-    </p>
-    
-  </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="2006 - 2008"
