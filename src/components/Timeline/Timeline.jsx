@@ -38,21 +38,25 @@ const Timeline = () => {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
    
   >
+                        <div className="list_inner">
+                    <div className="image" onClick={toggleModalOne}>
+                      <img src="/img/placeholders/4-3.jpg" alt="thumb" />
+                      <div
+                        className="main"
+                        style={{
+                          backgroundImage: `url(${
+                            process.env.PUBLIC_URL + "/img/news/wexner.jpg"
+                          })`,
+                        }}
+                      ></div>
+                    </div>
     <h3 className="vertical-timeline-element-title">Creative Director</h3>
     <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
     <p>
       Creative Direction, User Experience, Visual Design, Project Management, Team Leading
     </p>
   </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2010 - 2011"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    onClick={toggleModalOne}    
-  >
-        </VerticalTimelineElement>
-       {/* START MODAL */}
-       <Modal
+  <Modal
                       isOpen={isOpen}
                       onRequestClose={toggleModalOne}
                       contentLabel="My dialog"
@@ -151,6 +155,14 @@ const Timeline = () => {
                       {/* End modal box news */}
                     </Modal>
                     {/* End modal */}
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="2010 - 2011"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+  >
+        </VerticalTimelineElement>
+       {/* START MODAL */}
+     
     <h3 className="vertical-timeline-element-title">Art Director</h3>
     <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
     <p>
@@ -183,105 +195,7 @@ const Timeline = () => {
       User Experience, Visual Design
     </p>
   </VerticalTimelineElement>
-  <Modal
-                      isOpen={isOpen2}
-                      onRequestClose={toggleModalTwo}
-                      contentLabel="My dialog"
-                      className="custom-modal"
-                      overlayClassName="custom-overlay"
-                      closeTimeoutMS={500}
-                    >
-                      <div className="shane_tm_modalbox_news">
-                        <button
-                          className="close-modal"
-                          onClick={toggleModalTwo}
-                        >
-                          <img src="/resume/img/svg/cancel.svg" alt="close icon" />
-                        </button>
-                        {/* End close modal */}
-                        <div className="box_inner">
-                          <div className="description_wrap scrollable">
-                            <div className="image">
-                              <img
-                                src="/img/placeholders/4-3.jpg"
-                                alt="thumb"
-                              />
-                              <div
-                                className="main"
-                                style={{
-                                  backgroundImage: `url(${
-                                    process.env.PUBLIC_URL + "/img/news/9.jpg"
-                                  })`,
-                                }}
-                              ></div>
-                            </div>
-                            {/* End image */}
-                            <div className="details">
-                              <h3 className="title">
-                                How to be appreciated for your hard work as a
-                                developer
-                              </h3>
-                              <p className="date">
-                                By <a href="#">Brook Kennedy</a>{" "}
-                                <span>07 April 2020</span>
-                              </p>
-                            </div>
-                            {/* End details */}
-                            <div className="description">
-                              <p>
-                                As Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities. As
-                                Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities. As
-                                Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities.
-                              </p>
-                              <blockquote>
-                                As Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person.
-                                As Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities. As
-                                Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities.
-                              </blockquote>
-                              <p>
-                                As Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities. We
-                                encounter professionals with careers to covet
-                                and lives to write books about. As Vintage
-                                decided to have a closer look into fast-paced
-                                New York web design realm in person, we get to
-                                acquaint with most diverse and exceptionally
-                                captivating personalities. As Vintage decided to
-                                have a closer look into fast-paced New York web
-                                design realm in person, we get to acquaint with
-                                most diverse and exceptionally captivating
-                                personalities. As Vintage decided to have a
-                                closer look into fast-paced New York web design
-                                realm in person, we get to acquaint with most
-                                diverse and exceptionally captivating
-                                personalities.
-                              </p>
-                            </div>
-                            {/* End description */}
-                            {/* End news share */}
-                          </div>
-                        </div>
-                      </div>
-                    </Modal>
-             
+  
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="April 2013"
