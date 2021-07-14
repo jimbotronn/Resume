@@ -44,9 +44,7 @@ const PortfolioTwo = () => {
       <li>
       <FaReact/>  ReactJS
       </li>
-        It can even be another Collapsible component. Check out the next
-        section!
-      </p>
+
     </Collapsible>
                         <ul className="gallery_zoom" alt="Web">
                 
