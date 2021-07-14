@@ -5,6 +5,7 @@ import { SRLWrapper } from "simple-react-lightbox";
 import Reveal from "react-reveal/Reveal";
 import { FaHtml5, FaReact}from 'react-icons/fa';
 import { IoLogoJavascript } from "react-icons/io5";
+import { MdWeb } from "react-icons/md";
 import Collapsible from 'react-collapsible';
 
 const PortfolioTwo = () => {
@@ -35,7 +36,7 @@ const PortfolioTwo = () => {
                   <div className="portfolio_list">
                     <SRLWrapper>
                       <TabPanel>
-                      <Collapsible alt="Web" trigger="Web Development">
+                      <Collapsible alt="Web" trigger="<MdWebWeb/> Web Development">
       <ul><li>
       <FaHtml5/>  HTML
       </li>
