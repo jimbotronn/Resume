@@ -1,4 +1,5 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import Icon from 'react-component-bytesize-icons';
 import 'react-vertical-timeline-component/style.min.css';
 
 const Timeline = () => {
