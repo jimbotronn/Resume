@@ -276,10 +276,6 @@ const Timeline = () => {
                               </p>
                             </div>
                             {/* End description */}
-                            <div className="news_share">
-                              <Social />
-                              {/* End social share */}
-                            </div>
                             {/* End news share */}
                           </div>
                         </div>
