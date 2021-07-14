@@ -39,11 +39,12 @@ const PortfolioTwo = () => {
       <FaHtml5/>  HTML
       </li>
       <li>
-      <IoLogoJavascript/>  ReactJS
+      <IoLogoJavascript/>  JavaScript
       </li>
       <li>
       <FaReact/>  ReactJS
       </li>
+      </ul>
 
     </Collapsible>
                         <ul className="gallery_zoom" alt="Web">
