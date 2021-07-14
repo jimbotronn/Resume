@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{ Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
@@ -35,6 +35,7 @@ const PortfolioTwo = () => {
                       <TabPanel>
                         <ul className="gallery_zoom" alt="Web">
                           <li>
+                            
                                                        <FaHtml5/><h2>HTML</h2>
                                                       </li>
                           {/* End single image block */}
