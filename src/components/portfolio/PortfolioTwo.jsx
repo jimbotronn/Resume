@@ -3,7 +3,8 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 import Reveal from "react-reveal/Reveal";
-import { FaHtml5, FaReact, IoLogoJavascript }from 'react-icons';
+import { FaHtml5, FaReact}from 'react-icons/fa';
+import { IoLogoJavascript } from "react-icons/io5";
 import Collapsible from 'react-collapsible';
 
 const PortfolioTwo = () => {
