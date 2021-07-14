@@ -3,7 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 import Reveal from "react-reveal/Reveal";
-import { FaHtml5 } from 'react-icons/Fa';
+import { FaHtml5 },{ FaReact },{ IoLogoJavascript}from 'react-icons;
 import Collapsible from 'react-collapsible';
 
 const PortfolioTwo = () => {
@@ -35,10 +35,15 @@ const PortfolioTwo = () => {
                     <SRLWrapper>
                       <TabPanel>
                       <Collapsible alt="Web" trigger="Web Development">
-      <p>
-      <FaHtml5/>HTML
-      </p>
-      <p>
+      <ul><li>
+      <FaHtml5/>  HTML
+      </li>
+      <li>
+      <IoLogoJavascript/>  ReactJS
+      </li>
+      <li>
+      <FaReact/>  ReactJS
+      </li>
         It can even be another Collapsible component. Check out the next
         section!
       </p>
