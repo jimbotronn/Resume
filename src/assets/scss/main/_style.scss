@@ -1398,13 +1398,6 @@ ul.react-tabs__tab-list {
 }
 .shane_tm_partners .partners_inner ul li {
   margin: 0px;
-  opacity: 0.6;
-
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 .shane_tm_partners .partners_inner ul li {
   max-width: 560px;
@@ -3397,7 +3390,7 @@ h3.vertical-timeline-element-subtitle {
 }
 
 div#timeline {
-  padding-top: 70px;
+  padding-top: 100px;
 }
 
 .vertical-timeline-element--work.list_inner1.vertical-timeline-element {
@@ -3421,3 +3414,35 @@ div#timeline {
 }
 
 .vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns {padding-top: 15%;}
+
+.list_inner1 .vertical-timeline-element-content.bounce-in:hover {
+  background-color: #e65948;
+  transition: all .5s ease-out;
+  cursor:pointer;
+}
+
+.list_inner2 .vertical-timeline-element-content.bounce-in:hover {
+  background-color: #ffa000;
+  transition: all .5s ease-out;
+  cursor:pointer;
+}
+
+.list_inner3 .vertical-timeline-element-content.bounce-in:hover {
+  background-color: #5fa6a9;
+  transition: all .5s ease-out;
+  cursor:pointer;
+}
+
+.list_inner1 .vertical-timeline-element-content.bounce-in:hover > h3,
+.list_inner2 .vertical-timeline-element-content.bounce-in:hover > h3,
+.list_inner3 .vertical-timeline-element-content.bounce-in:hover > h3 {
+  color: white;
+  transition: all .5s ease-out;
+}
+
+.list_inner1 .vertical-timeline-element-content.bounce-in:hover > p,
+.list_inner2 .vertical-timeline-element-content.bounce-in:hover > p,
+.list_inner3 .vertical-timeline-element-content.bounce-in:hover > p {
+  color: #464646    ;
+  transition: all .5s ease-out;
+}

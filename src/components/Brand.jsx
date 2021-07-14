@@ -24,7 +24,7 @@ export default function SimpleSlider() {
     
     <ul>
       <Slider {...settings}>
-        <li className="item">
+        <li className="item item_mobile">
           <div className="itemLogo1">
           <img src="/resume/img/partners/1.png" alt="partners brand" />
           </div>
@@ -33,7 +33,7 @@ export default function SimpleSlider() {
             <p>B.S. Computer Science and Engineering<br></br>2003-2008</p>
           </div>
       </li>
-      <li className="item">
+      <li className="item item_mobile">
           <div className="itemLogo2">
           <img src="/resume/img/partners/2.png" alt="partners brand" />
           </div>

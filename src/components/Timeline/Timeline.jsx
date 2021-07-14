@@ -37,7 +37,7 @@ const Timeline = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--work list_inner1"
     contentArrowStyle={{ borderRight: '7px solid  #e65948' }}
-    date="2011 - present"
+    date="2018 - 2021"
     iconStyle={{ background: '#e65948', color: '#fff' }}
     >
     <h3 className="vertical-timeline-element-title">Senior Enterprise System Architect</h3>
@@ -125,7 +125,7 @@ const Timeline = () => {
     className="vertical-timeline-element--work list_inner2"
     date="2009 - 2015"
     iconStyle={{ background: '#ffa000', color: '#fff' }}
-    contentArrowStyle={{ borderLeft: '7px solid  #ffa000' }}
+    contentArrowStyle={{ borderRight: '7px solid  #ffa000' }}
     position="right"
    >
     <h3 className="vertical-timeline-element-title">System Administrator</h3>
