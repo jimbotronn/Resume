@@ -293,7 +293,8 @@ const Timeline = () => {
                       </div>
                       {/* End modal box news */}
                     </Modal>
-</div></div>
+                    </VerticalTimeline>
+</div></div></div>
   );
 };
 
