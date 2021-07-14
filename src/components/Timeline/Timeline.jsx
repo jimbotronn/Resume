@@ -40,7 +40,7 @@ const Timeline = () => {
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="2011 - present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    onClick={{toggleModalOne}}
+    onClick={toggleModalOne}
      >
     <h3 className="vertical-timeline-element-title">Senior Enterprise System Architect</h3>
     <h3 className="vertical-timeline-element-subtitle">Wexner Medical Center</h3>
