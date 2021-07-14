@@ -38,18 +38,7 @@ const Timeline = () => {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
    
   >
-                        <div className="list_inner">
-                    <div className="image" onClick={toggleModalOne}>
-                      <img src="/img/placeholders/4-3.jpg" alt="thumb" />
-                      <div
-                        className="main"
-                        style={{
-                          backgroundImage: `url(${
-                            process.env.PUBLIC_URL + "/img/news/wexner.jpg"
-                          })`,
-                        }}
-                      ></div>
-                    </div>
+    <div className="list_inner" onClick={toggleModalOne}>
     <h3 className="vertical-timeline-element-title">Creative Director</h3>
     <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
     <p>
