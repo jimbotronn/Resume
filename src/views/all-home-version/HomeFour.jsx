@@ -41,6 +41,9 @@ const HomeFour = () => {
         </div>
       </div>
 
+      <Portfolio />
+     {/*End Portfolio Section */}
+
       <Timeline />
 
       <Skills />

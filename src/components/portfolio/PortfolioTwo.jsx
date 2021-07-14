@@ -34,23 +34,13 @@ const PortfolioTwo = () => {
                       <TabPanel>
                         <ul className="gallery_zoom">
                           <li>
-                            <Reveal effect="fadeIn">
-                              <div className="inner">
-                                <div className="entry shane_tm_portfolio_animation_wrap">
-                                  <a href="/img/portfolio/13.jpg">
-                                    <img
-                                      src="/img/portfolio/13.jpg"
-                                      alt="Design"
-                                    />
-                                  </a>
-                                </div>
+                             <div className="inner">
                                 <div className="mobile_title">
                                   <h3>Sweet Fruit</h3>
                                   <span>Design</span>
                                 </div>
                               </div>
-                            </Reveal>
-                          </li>
+                            </li>
                           {/* End single image block */}
 
                           <li>
