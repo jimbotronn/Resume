@@ -30,6 +30,7 @@ const Timeline = () => {
         <span>Professional Experience</span>
         </div>
 <VerticalTimeline>
+    <div className="list_inner" onClick={toggleModalOne}>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -38,13 +39,24 @@ const Timeline = () => {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
    
   >
-    <div className="list_inner" onClick={toggleModalOne}>
-    <h3 className="vertical-timeline-element-title">Creative Director</h3>
+    <h3 className="vertical-timeline-element-title">Senior Enterprise System Architect</h3>
     <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
     <p>
       Creative Direction, User Experience, Visual Design, Project Management, Team Leading
     </p>
-    </div>
+  </VerticalTimelineElement>
+  </div>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="2008 - 2010"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+   >
+    <h3 className="vertical-timeline-element-title">Web Designer</h3>
+    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+    <p>
+      User Experience, Visual Design
+    </p>
+    
   </VerticalTimelineElement>
   <Modal
                       isOpen={isOpen}
