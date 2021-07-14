@@ -1402,11 +1402,25 @@ ul.react-tabs__tab-list {
   transition: all 0.3s ease;
 }
 .shane_tm_partners .partners_inner ul li {
-  max-width: 200px;
+  max-width: 560px;
   max-height: 200px;
 }
 .shane_tm_partners .partners_inner ul li:hover {
   opacity: 1;
+}
+
+.slick-slide li.item {
+  display: flex !important;
+  flex-direction: row;
+}
+
+.itemLogo1 .itemName1 {
+  display: flex;
+}
+
+.itemName1, .itemName2 {
+  vertical-align: middle;
+  padding-top: 5%;
 }
 
 /*---------------------------------------------------*/

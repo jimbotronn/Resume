@@ -28,7 +28,7 @@ export default function SimpleSlider() {
           <img src="/resume/img/partners/1.png" alt="partners brand" />
           </div>
           <div className="itemName1">
-            <h6>The Ohio State Universite</h6>
+            <h6 style="color:#bb0000;">The Ohio State Universite</h6>
             <p>B.S. Computer Science and Engineering</p>
           </div>
       </li>
@@ -37,38 +37,11 @@ export default function SimpleSlider() {
           <img src="/resume/img/partners/2.png" alt="partners brand" />
           </div>
           <div className="itemName2">
-            <h6>Capital University</h6>
+            <h6 style="color:#35297f;">Capital University</h6>
             <p>MBA</p>
           </div>
       </li>
-        <li className="item">
-          <img src="/resume/img/partners/3.png" alt="partners brand" />
-        </li>
-        {/* End single brand */}
-
-        <li className="item">
-          <img src="/resume/img/partners/4.png" alt="partners brand" />
-        </li>
-        {/* End single brand */}
-
-        <li className="item">
-          <img src="/img/partners/5.png" alt="partners brand" />
-        </li>
-        {/* End single brand */}
-
-        <li className="item">
-          <img src="/img/partners/6.png" alt="partners brand" />
-        </li>
-        {/* End single brand */}
-
-        <li className="item">
-          <img src="/img/partners/7.png" alt="partners brand" />
-        </li>
-        {/* End single brand */}
-
-        <li className="item">
-          <img src="/img/partners/8.png" alt="partners brand" />
-        </li>
+       
       </Slider>
     </ul>
   );
