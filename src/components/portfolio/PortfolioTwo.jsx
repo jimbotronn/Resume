@@ -3,7 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 import Reveal from "react-reveal/Reveal";
-import { FaHtml5 } from 'react-icons/FaHtml5';
+import { FaHtml5 } from 'react-icons/Fa';
 
 const PortfolioTwo = () => {
   return (
