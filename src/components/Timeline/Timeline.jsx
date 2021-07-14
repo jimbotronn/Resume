@@ -91,52 +91,26 @@ const Timeline = () => {
                             </div>
                             {/* End details */}
                             <div className="description">
-                              <p>
-                                As Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities. As
-                                Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities. As
-                                Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities.
-                              </p>
-                              <blockquote>
-                                As Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person.
-                                As Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities. As
-                                Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities.
-                              </blockquote>
-                              <p>
-                                As Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities. We
-                                encounter professionals with careers to covet
-                                and lives to write books about. As Vintage
-                                decided to have a closer look into fast-paced
-                                New York web design realm in person, we get to
-                                acquaint with most diverse and exceptionally
-                                captivating personalities. As Vintage decided to
-                                have a closer look into fast-paced New York web
-                                design realm in person, we get to acquaint with
-                                most diverse and exceptionally captivating
-                                personalities. As Vintage decided to have a
-                                closer look into fast-paced New York web design
-                                realm in person, we get to acquaint with most
-                                diverse and exceptionally captivating
-                                personalities.
-                              </p>
+                              <ul><li>
+                              Developed technology strategic roadmap aligned 
+                              with Workday HCM and Workday Financials implementation 
+                              strategy, increased peripheral systems and applications 
+                              utilization and integrations while minimizing business risks.  
+                              </li>
+                              <li>
+                              Optimized existing systems and harnessed the data-derived 
+                              intelligence to steward resources effectively, streamline and 
+                              automate workflows through cloud-based platforms, and achieve 
+                              process improvements up to 90% in some areas.</li>
+                              <li>
+                              Led the effort to develop integration partnerships across IT, 
+                              internal business leaders, and external vendors to design, build, 
+                              and implement high availability and disaster recovery infrastructure 
+                              model for core applications through javascript, JSON, REST APIs, XML, 
+                              and integration middleware.      </li>
+                              <li>
+                              	Improved critical change management effectiveness by monitoring, 
+                              analyzing, and reshaping staff engagement behavior in response to changes.        </li></ul>
                             </div>
                             {/* End description */}
                             {/* End news share */}
@@ -204,52 +178,33 @@ const Timeline = () => {
                             </div>
                             {/* End details */}
                             <div className="description">
-                              <p>
-                                As Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities. As
-                                Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities. As
-                                Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities.
-                              </p>
-                              <blockquote>
-                                As Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person.
-                                As Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities. As
-                                Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities.
-                              </blockquote>
-                              <p>
-                                As Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities. We
-                                encounter professionals with careers to covet
-                                and lives to write books about. As Vintage
-                                decided to have a closer look into fast-paced
-                                New York web design realm in person, we get to
-                                acquaint with most diverse and exceptionally
-                                captivating personalities. As Vintage decided to
-                                have a closer look into fast-paced New York web
-                                design realm in person, we get to acquaint with
-                                most diverse and exceptionally captivating
-                                personalities. As Vintage decided to have a
-                                closer look into fast-paced New York web design
-                                realm in person, we get to acquaint with most
-                                diverse and exceptionally captivating
-                                personalities.
-                              </p>
+                            <ul><li>
+                            Led the IT business intelligence needs and strategic direction. 
+                            Bridged the technical and business functions and collaborated closely 
+                            with internal stakeholders, the university IT, and external partners 
+                            to design, develop, and implement an integrated and scalable system 
+                            architecture to enhance and connect processes through the entire business lifecycle.  
+                              </li>
+                              <li>
+                              Compiled/sanitized critical data and eliminated 40% of redundant 
+                              data within a year, allowing for cross-platform data integration and 
+                              translating data into meaningful insights in real-time.  </li>
+                              <li>
+                              Established data governance structure through balanced business 
+                              processes and technology expertise to maintain system data integrity 
+                              and accuracy.         </li>
+                              <li>
+                              Increased transaction efficiency by 60% by implementing unified UI 
+                              and integrated custom barcodes into the existing business processes.         </li>
+                              <li>
+                              Designed cross-platform data integration structure to create advanced 
+                              on-demand enterprise reporting system and analytics tools, providing 
+                              performance analysis and benchmark for the department.        </li>
+                              <li>
+                              Recognized with <b>Visionary Award</b> at CBORD user conference for presenting 
+                              the integrated multi-platform enterprise system concept and the change 
+                              management approach.  <b>Walt Disney Resorts</b> later adopted many vital 
+                              components in the presentation.        </li></ul>
                             </div>
                             {/* End description */}
                             {/* End news share */}
@@ -316,52 +271,18 @@ const Timeline = () => {
                             </div>
                             {/* End details */}
                             <div className="description">
-                              <p>
-                                As Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities. As
-                                Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities. As
-                                Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities.
-                              </p>
-                              <blockquote>
-                                As Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person.
-                                As Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities. As
-                                Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities.
-                              </blockquote>
-                              <p>
-                                As Vintage decided to have a closer look into
-                                fast-paced New York web design realm in person,
-                                we get to acquaint with most diverse and
-                                exceptionally captivating personalities. We
-                                encounter professionals with careers to covet
-                                and lives to write books about. As Vintage
-                                decided to have a closer look into fast-paced
-                                New York web design realm in person, we get to
-                                acquaint with most diverse and exceptionally
-                                captivating personalities. As Vintage decided to
-                                have a closer look into fast-paced New York web
-                                design realm in person, we get to acquaint with
-                                most diverse and exceptionally captivating
-                                personalities. As Vintage decided to have a
-                                closer look into fast-paced New York web design
-                                realm in person, we get to acquaint with most
-                                diverse and exceptionally captivating
-                                personalities.
-                              </p>
+                            <p>Conducted business process analysis and technical system consultation to drive
+                                 operational process improvements and efficiencies. Established standardize 
+                                 change management practice. Developed end-user training by maintaining and 
+                                 creating technical and user documentation for business applications. </p>
+                            <ul><li>
+                            Developed and implemented effective policies and improved forecasting and 
+                            inventory management efficiency.  
+                              </li>
+                              <li>
+                              Improved business purchasing process by implementing automated vendors 
+                              order generation process. </li>
+</ul>
                             </div>
                             {/* End description */}
                             {/* End news share */}
