@@ -33,7 +33,7 @@ const Timeline = () => {
             <h3>Work Experience</h3>
           </div>
 <VerticalTimeline>
-<div className="list_inner" onClick={toggleModalOne}>
+
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -47,6 +47,8 @@ const Timeline = () => {
       Creative Direction, User Experience, Visual Design, Project Management, Team Leading
     </p>
   </VerticalTimelineElement>
+  <div className="list_inner" onClick={toggleModalOne}>
+      Click here now
   </div>
    <Modal
                       isOpen={isOpen}
@@ -158,10 +160,11 @@ const Timeline = () => {
     <p>
       User Experience, Visual Design
     </p>
-    <div className="list_inner" onClick={toggleModalTwo}>
+
+  </VerticalTimelineElement>
+  <div className="list_inner" onClick={toggleModalTwo}>
         View More Details
     </div>
-  </VerticalTimelineElement>
 
   <Modal
                       isOpen={isOpen}
