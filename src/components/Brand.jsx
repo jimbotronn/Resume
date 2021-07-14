@@ -31,7 +31,7 @@ export default function SimpleSlider() {
           <div className="itemName1">
             <h6 style="color:#bb0000;">The Ohio State Universite</h6>
             <p>B.S. Computer Science and Engineering</p>
-            <P>2003 - 2008</P>
+            <p>2003 - 2008</p>
           </div>
       </li>
       <li className="item">
@@ -41,7 +41,7 @@ export default function SimpleSlider() {
           <div className="itemName2">
             <h6 style="color:#35297f;">Capital University</h6>
             <p>Master of Business Administration (MBA)</p>
-            <P>2015 - 2017</P>
+            <p>2015 - 2017</p>
           </div>
       </li>
        
