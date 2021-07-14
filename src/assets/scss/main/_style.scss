@@ -818,9 +818,9 @@ body.loaded .overlay_effect:after {
   height: auto;
   clear: both;
   float: left;
-  padding-top: 100px;
+  padding: 150px 0px;
   @media screen and (max-width: 992px) {
-    padding-top: 40px;
+    padding: 60px 0px;
   }
 }
 .shane_tm_about .about_inner {
@@ -3369,11 +3369,11 @@ h3.vertical-timeline-element-title {
   margin-bottom: 0px;
   margin-bottom: 5px;
 }
-h4.vertical-timeline-element-title {
+h3.vertical-timeline-element-subtitle {
   font-family: "Montserrat";
   font-size: 14px;
   color: #000;
-  font-weight: 600;
+  font-weight: 300;
   margin-bottom: 0px;
   margin-bottom: 5px;
 }
