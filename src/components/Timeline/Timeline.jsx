@@ -33,7 +33,7 @@ const Timeline = () => {
             <h3>Work Experience</h3>
           </div>
 <VerticalTimeline>
-<div className="list_inner" onClick={toggleModalOne}></div>
+<div className="list_inner" onClick={toggleModalOne}>
   <VerticalTimelineElement
     className="vertical-timeline-element--work list_inner"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
