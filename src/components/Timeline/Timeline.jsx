@@ -48,18 +48,6 @@ const Timeline = () => {
     </p>
   </VerticalTimelineElement>
   </div>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2008 - 2010"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-   >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-    <p>
-      User Experience, Visual Design
-    </p>
-    
-  </VerticalTimelineElement>
   <Modal
                       isOpen={isOpen}
                       onRequestClose={toggleModalOne}
@@ -158,7 +146,233 @@ const Timeline = () => {
                       </div>
                       {/* End modal box news */}
                     </Modal>
-                    {/* End modal */}
+                    {/* End modal */}.
+                    <div className="list_inner" onClick={toggleModalTwo}>
+                    <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="2008 - 2015"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+   >
+    <h3 className="vertical-timeline-element-title">System Administrator</h3>
+    <h4 className="vertical-timeline-element-subtitle">The Ohio State University</h4>
+    <p>
+      User Experience, Visual Design
+    </p>
+    
+  </VerticalTimelineElement>
+  </div>
+  <Modal
+                      isOpen={isOpen}
+                      onRequestClose={toggleModalTwo}
+                      contentLabel="My dialog"
+                      className="custom-modal"
+                      overlayClassName="custom-overlay"
+                      closeTimeoutMS={500}
+                    >
+                      <div className="shane_tm_modalbox_news">
+                        <button
+                          className="close-modal"
+                          onClick={toggleModalTwo}
+                        >
+                          <img src="/resume/img/svg/cancel.svg" alt="close icon" />
+                        </button>
+                        {/* End close icon */}
+                        <div className="box_inner">
+                          <div className="description_wrap scrollable">
+                            <div className="image">
+                              <img
+                                src="/resume/img/placeholders/4-3.jpg"
+                                alt="thumb"
+                              />
+                              <div
+                                className="main"
+                                style={{
+                                  backgroundImage: `url(${
+                                    process.env.PUBLIC_URL + "/img/news/wexner.jpg"
+                                  })`,
+                                }}
+                              ></div>
+                            </div>
+                            {/* End image */}
+                            <div className="details">
+                              <h3 className="title">
+                              System Administrator
+                              </h3>
+                              <p className="date">
+                              @ The Ohio State University <span>Sep 09 - Sep 15</span>
+                              </p>
+                            </div>
+                            {/* End details */}
+                            <div className="description">
+                              <p>
+                                As Vintage decided to have a closer look into
+                                fast-paced New York web design realm in person,
+                                we get to acquaint with most diverse and
+                                exceptionally captivating personalities. As
+                                Vintage decided to have a closer look into
+                                fast-paced New York web design realm in person,
+                                we get to acquaint with most diverse and
+                                exceptionally captivating personalities. As
+                                Vintage decided to have a closer look into
+                                fast-paced New York web design realm in person,
+                                we get to acquaint with most diverse and
+                                exceptionally captivating personalities.
+                              </p>
+                              <blockquote>
+                                As Vintage decided to have a closer look into
+                                fast-paced New York web design realm in person.
+                                As Vintage decided to have a closer look into
+                                fast-paced New York web design realm in person,
+                                we get to acquaint with most diverse and
+                                exceptionally captivating personalities. As
+                                Vintage decided to have a closer look into
+                                fast-paced New York web design realm in person,
+                                we get to acquaint with most diverse and
+                                exceptionally captivating personalities.
+                              </blockquote>
+                              <p>
+                                As Vintage decided to have a closer look into
+                                fast-paced New York web design realm in person,
+                                we get to acquaint with most diverse and
+                                exceptionally captivating personalities. We
+                                encounter professionals with careers to covet
+                                and lives to write books about. As Vintage
+                                decided to have a closer look into fast-paced
+                                New York web design realm in person, we get to
+                                acquaint with most diverse and exceptionally
+                                captivating personalities. As Vintage decided to
+                                have a closer look into fast-paced New York web
+                                design realm in person, we get to acquaint with
+                                most diverse and exceptionally captivating
+                                personalities. As Vintage decided to have a
+                                closer look into fast-paced New York web design
+                                realm in person, we get to acquaint with most
+                                diverse and exceptionally captivating
+                                personalities.
+                              </p>
+                            </div>
+                            {/* End description */}
+                            {/* End news share */}
+                          </div>
+                        </div>
+                        {/* End box inner */}
+                      </div>
+                      {/* End modal box news */}
+                    </Modal>
+                    <div className="list_inner" onClick={toggleModalThree}>
+                    <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="2008 - 2015"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+   >
+    <h3 className="vertical-timeline-element-title">System Coordinator</h3>
+    <h4 className="vertical-timeline-element-subtitle">The Ohio State University</h4>
+    <p>
+      User Experience, Visual Design
+    </p>
+    
+  </VerticalTimelineElement>
+  </div>
+  <Modal
+                      isOpen={isOpen}
+                      onRequestClose={toggleModalThree}
+                      contentLabel="My dialog"
+                      className="custom-modal"
+                      overlayClassName="custom-overlay"
+                      closeTimeoutMS={500}
+                    >
+                      <div className="shane_tm_modalbox_news">
+                        <button
+                          className="close-modal"
+                          onClick={toggleModalThree}
+                        >
+                          <img src="/resume/img/svg/cancel.svg" alt="close icon" />
+                        </button>
+                        {/* End close icon */}
+                        <div className="box_inner">
+                          <div className="description_wrap scrollable">
+                            <div className="image">
+                              <img
+                                src="/resume/img/placeholders/4-3.jpg"
+                                alt="thumb"
+                              />
+                              <div
+                                className="main"
+                                style={{
+                                  backgroundImage: `url(${
+                                    process.env.PUBLIC_URL + "/img/news/wexner.jpg"
+                                  })`,
+                                }}
+                              ></div>
+                            </div>
+                            {/* End image */}
+                            <div className="details">
+                              <h3 className="title">
+                              System Coordinator
+                              </h3>
+                              <p className="date">
+                              @ The Ohio State University <span>Sep 08 - Sep 09</span>
+                              </p>
+                            </div>
+                            {/* End details */}
+                            <div className="description">
+                              <p>
+                                As Vintage decided to have a closer look into
+                                fast-paced New York web design realm in person,
+                                we get to acquaint with most diverse and
+                                exceptionally captivating personalities. As
+                                Vintage decided to have a closer look into
+                                fast-paced New York web design realm in person,
+                                we get to acquaint with most diverse and
+                                exceptionally captivating personalities. As
+                                Vintage decided to have a closer look into
+                                fast-paced New York web design realm in person,
+                                we get to acquaint with most diverse and
+                                exceptionally captivating personalities.
+                              </p>
+                              <blockquote>
+                                As Vintage decided to have a closer look into
+                                fast-paced New York web design realm in person.
+                                As Vintage decided to have a closer look into
+                                fast-paced New York web design realm in person,
+                                we get to acquaint with most diverse and
+                                exceptionally captivating personalities. As
+                                Vintage decided to have a closer look into
+                                fast-paced New York web design realm in person,
+                                we get to acquaint with most diverse and
+                                exceptionally captivating personalities.
+                              </blockquote>
+                              <p>
+                                As Vintage decided to have a closer look into
+                                fast-paced New York web design realm in person,
+                                we get to acquaint with most diverse and
+                                exceptionally captivating personalities. We
+                                encounter professionals with careers to covet
+                                and lives to write books about. As Vintage
+                                decided to have a closer look into fast-paced
+                                New York web design realm in person, we get to
+                                acquaint with most diverse and exceptionally
+                                captivating personalities. As Vintage decided to
+                                have a closer look into fast-paced New York web
+                                design realm in person, we get to acquaint with
+                                most diverse and exceptionally captivating
+                                personalities. As Vintage decided to have a
+                                closer look into fast-paced New York web design
+                                realm in person, we get to acquaint with most
+                                diverse and exceptionally captivating
+                                personalities.
+                              </p>
+                            </div>
+                            {/* End description */}
+                            {/* End news share */}
+                          </div>
+                        </div>
+                        {/* End box inner */}
+                      </div>
+                      {/* End modal box news */}
+                    </Modal>
+
+
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="2010 - 2011"

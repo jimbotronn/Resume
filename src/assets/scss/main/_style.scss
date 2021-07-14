@@ -1128,6 +1128,10 @@ ul.react-tabs__tab-list {
   color: #000;
 }
 
+.item_mobile{
+  flex-direction: column;
+}
+
 /*---------------------------------------------------*/
 /*	07) SHANE SKILLS
 /*---------------------------------------------------*/
@@ -1383,9 +1387,9 @@ ul.react-tabs__tab-list {
   height: auto;
   clear: both;
   float: left;
-  padding: 90px 0px 80px;
+  padding: 10px 0px 10px;
   @media screen and (max-width: 992px) {
-    padding: 35px 0px 25px;
+    padding: 5px 0px 5px;
   }
 }
 .shane_tm_partners .partners_inner ul {
