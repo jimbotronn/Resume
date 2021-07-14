@@ -32,9 +32,7 @@ const HomeFour = () => {
         <div className="shane_tm_partners">
           <div className="container">
             <div className="partners_inner">
-            <div className="shane_tm_title">
-    <span>Education</span>
-  </div>
+
               <Brand />
             </div>
           </div>
