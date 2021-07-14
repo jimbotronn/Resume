@@ -21,9 +21,7 @@ export default function SimpleSlider() {
     ],
   };
   return (
-    <div className="shane_tm_title">
-    <span>Education</span>
-  </div>
+
     <ul>
       <Slider {...settings}>
         <li className="item">
