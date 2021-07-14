@@ -33,7 +33,7 @@ const AboutFour = () => {
                     I have 10+ years of success leading technology innovation transformation, 
                     delivering integrated enterprise cloud solutions and creating an Information 
                     Technology roadmap in alignment with business strategies and initiatives.  
-                    <br></br>History of analyzing technology trends, leveraging existing and emerging 
+                    <br></br><br></br>History of analyzing technology trends, leveraging existing and emerging 
                     technologies to uncover opportunities and develop trailblazing strategies to improve 
                     operations, break down complex projects into steps that drive business process 
                     improvement, reduce risks, maintaining scalability, and increase efficiencies.   

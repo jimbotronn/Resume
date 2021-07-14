@@ -1394,7 +1394,7 @@ ul.react-tabs__tab-list {
 }
 .shane_tm_partners .partners_inner ul li {
   margin: 0px;
-  opacity: 0.8;
+  opacity: 0.6;
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -3380,9 +3380,11 @@ h4.vertical-timeline-element-title {
 .vertical-timeline:before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 18px;
+  top: 10%;
+  left: 11px;
   height: 100%;
   width: 4px;
   background: #757575;
 }
+
+.vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns {padding-top: 15%;}
