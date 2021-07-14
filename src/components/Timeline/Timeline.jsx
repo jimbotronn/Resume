@@ -152,6 +152,7 @@ const Timeline = () => {
     className="vertical-timeline-element--work"
     date="2008 - 2015"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    position="right"
    >
     <h3 className="vertical-timeline-element-title">System Administrator</h3>
     <h3 className="vertical-timeline-element-subtitle">The Ohio State University</h3>
