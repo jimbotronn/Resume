@@ -26,9 +26,12 @@ const Timeline = () => {
     return (
 
         <div className="shane_tm_section" id="timeline">
-        <div className="shane_tm_title">
-        <span>Professional Experience</span>
-        </div>
+      <div className="shane_tm_timeline">
+        <div className="container">
+          <div className="shane_tm_title">
+            <span>Experience</span>
+            <h3>Work Experience</h3>
+          </div>
 <VerticalTimeline>
     <div className="list_inner" onClick={toggleModalOne}>
   <VerticalTimelineElement
@@ -40,7 +43,7 @@ const Timeline = () => {
    
   >
     <h3 className="vertical-timeline-element-title">Senior Enterprise System Architect</h3>
-    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+    <h4 className="vertical-timeline-element-subtitle">Columbus, Ohio</h4>
     <p>
       Creative Direction, User Experience, Visual Design, Project Management, Team Leading
     </p>
@@ -240,6 +243,7 @@ const Timeline = () => {
   />
 </VerticalTimeline>
 </div>
+</div></div>
   );
 };
 

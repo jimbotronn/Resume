@@ -21,6 +21,7 @@
 14) SHANE MODALBOX CONTACT
 15) SHANE CURSOR
 16) SHANE MEDIA QUERIES (FOR SMALL DEVIVES)
+17) TIMELINE
 
 
 /*---------------------------------------------------*/
@@ -3358,4 +3359,30 @@ body.intro .loader_line:after {
       max-width: 80px;
     }
   }
+}
+// Timeline
+h3.vertical-timeline-element-title {
+  font-family: "Montserrat";
+  font-size: 18px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-bottom: 5px;
+}
+h4.vertical-timeline-element-title {
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-bottom: 5px;
+}
+.vertical-timeline:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #757575;
 }

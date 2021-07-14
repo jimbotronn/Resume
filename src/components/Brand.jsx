@@ -29,7 +29,7 @@ export default function SimpleSlider() {
           <img src="/resume/img/partners/1.png" alt="partners brand" />
           </div>
           <div className="itemName1">
-            <h6>The Ohio State Universite</h6>
+            <h6>The Ohio State University</h6>
             <p>B.S. Computer Science and Engineering<br></br>2003-2008</p>
           </div>
       </li>
