@@ -817,9 +817,9 @@ body.loaded .overlay_effect:after {
   height: auto;
   clear: both;
   float: left;
-  padding: 150px 0px;
+  padding-top: 100px;
   @media screen and (max-width: 992px) {
-    padding: 60px 0px;
+    padding-top: 40px;
   }
 }
 .shane_tm_about .about_inner {
@@ -1393,7 +1393,7 @@ ul.react-tabs__tab-list {
 }
 .shane_tm_partners .partners_inner ul li {
   margin: 0px;
-  opacity: 0.5;
+  opacity: 0.8;
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -1421,6 +1421,14 @@ ul.react-tabs__tab-list {
 .itemName1, .itemName2 {
   vertical-align: middle;
   padding-top: 3%;
+}
+
+.itemName1 h6 {
+  color: #bb0000;
+}
+
+.itemName2 h6 {
+  color: #35297f;
 }
 
 /*---------------------------------------------------*/
