@@ -154,7 +154,7 @@ const Timeline = () => {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
    >
     <h3 className="vertical-timeline-element-title">System Administrator</h3>
-    <h3 className="vertical-timeline-element-subtitle">The Ohio State University</h4>
+    <h3 className="vertical-timeline-element-subtitle">The Ohio State University</h3>
     <p>
       User Experience, Visual Design
     </p>
@@ -266,7 +266,7 @@ const Timeline = () => {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
    >
     <h3 className="vertical-timeline-element-title">System Coordinator</h3>
-    <h3 className="vertical-timeline-element-subtitle">The Ohio State University</h4>
+    <h3 className="vertical-timeline-element-subtitle">The Ohio State University</h3>
     <p>
       User Experience, Visual Design
     </p>
