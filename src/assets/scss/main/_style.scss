@@ -817,9 +817,9 @@ body.loaded .overlay_effect:after {
   height: auto;
   clear: both;
   float: left;
-  padding: 150px 0px;
+  padding-top: 100px;
   @media screen and (max-width: 992px) {
-    padding: 60px 0px;
+    padding-top: 40px;
   }
 }
 .shane_tm_about .about_inner {
