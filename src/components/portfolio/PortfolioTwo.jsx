@@ -3,7 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 import Reveal from "react-reveal/Reveal";
-import { ImHtmlFive } from 'react-icons/ImHtmlFive';
+import { FaHtml5 } from 'react-icons/FaHtml5';
 
 const PortfolioTwo = () => {
   return (
@@ -35,7 +35,7 @@ const PortfolioTwo = () => {
                       <TabPanel>
                         <ul className="gallery_zoom" alt="Web">
                           <li>
-                                                       <ImHtmlFive></ImHtmlFive><h2>HTML</h2>
+                                                       <FaHtml5/><h2>HTML</h2>
                                                       </li>
                           {/* End single image block */}
 
