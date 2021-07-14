@@ -9,11 +9,11 @@ export default function SimpleSlider() {
     arrow: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 420,
+        breakpoint: 840,
         settings: {
           slidesToShow: 2,
         },
@@ -24,15 +24,23 @@ export default function SimpleSlider() {
     <ul>
       <Slider {...settings}>
         <li className="item">
+          <div className="itemLogo1">
           <img src="/resume/img/partners/1.png" alt="partners brand" />
-        </li>
-        {/* End single brand */}
-
-        <li className="item">
+          </div>
+          <div className="itemName1">
+            <h6>The Ohio State Universite</h6>
+            <p>B.S. Computer Science and Engineering</p>
+          </div>
+      </li>
+      <li className="item">
+          <div className="itemLogo2">
           <img src="/resume/img/partners/2.png" alt="partners brand" />
-        </li>
-        {/* End single brand */}
-
+          </div>
+          <div className="itemName2">
+            <h6>Capital University</h6>
+            <p>MBA</p>
+          </div>
+      </li>
         <li className="item">
           <img src="/resume/img/partners/3.png" alt="partners brand" />
         </li>

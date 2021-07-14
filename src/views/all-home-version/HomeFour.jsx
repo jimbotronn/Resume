@@ -28,15 +28,7 @@ const HomeFour = () => {
      {/* <Portfolio />
      End Portfolio Section */}
 
-      <Timeline />
-
-      <Skills />
-      {/* End Skills Section */}
-
-     {/* <Video />
-      End Video Section */}
-
-      <div className="shane_tm_section">
+<div className="shane_tm_section">
         <div className="shane_tm_partners">
           <div className="container">
             <div className="partners_inner">
@@ -45,6 +37,16 @@ const HomeFour = () => {
           </div>
         </div>
       </div>
+
+      <Timeline />
+
+      <Skills />
+      {/* End Skills Section */}
+
+     {/* <Video />
+      End Video Section */}
+
+
       {/* End shane_tm_partners */}
 
       <div className="shane_tm_section">
