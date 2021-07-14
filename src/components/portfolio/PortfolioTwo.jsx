@@ -4,6 +4,7 @@ import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 import Reveal from "react-reveal/Reveal";
 import { FaHtml5 } from 'react-icons/Fa';
+import Collapsible from 'react-collapsible';
 
 const PortfolioTwo = () => {
   return (
@@ -33,11 +34,17 @@ const PortfolioTwo = () => {
                   <div className="portfolio_list">
                     <SRLWrapper>
                       <TabPanel>
+                      <Collapsible alt="Web" trigger="Web Development">
+      <p>
+      <FaHtml5/>HTML
+      </p>
+      <p>
+        It can even be another Collapsible component. Check out the next
+        section!
+      </p>
+    </Collapsible>
                         <ul className="gallery_zoom" alt="Web">
-                          <li>
-                            
-                                                       <FaHtml5/><h2>HTML</h2>
-                                                      </li>
+                
                           {/* End single image block */}
 
                           <li>
