@@ -146,7 +146,7 @@ const Timeline = () => {
                       {/* End modal box news */}
                     </Modal>
                     {/* End modal */}.
-                    <div className="list_inner" onClick={toggleModalTwo}>
+                   
                     <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="2008 - 2015"
@@ -157,9 +157,11 @@ const Timeline = () => {
     <p>
       User Experience, Visual Design
     </p>
-    
+    <div className="list_inner" onClick={toggleModalTwo}>
+        View More Details
+    </div>
   </VerticalTimelineElement>
-  </div>
+
   <Modal
                       isOpen={isOpen}
                       onRequestClose={toggleModalTwo}
