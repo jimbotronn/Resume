@@ -3397,7 +3397,27 @@ h3.vertical-timeline-element-subtitle {
 }
 
 div#timeline {
-  padding-top: 150px;
+  padding-top: 100px;
+}
+
+.vertical-timeline-element--work.list_inner1.vertical-timeline-element {
+  margin-bottom: 3%;
+}
+
+.list_inner1 h3 {
+  color: #e65948;
+}
+
+.list_inner2 h3 {
+  color: #ffa000;
+}
+
+.list_inner3 h3 {
+  color: #5fa6a9;
+}
+
+.vertical-timeline-element--work.list_inner2.vertical-timeline-element.vertical-timeline-element--right {
+  margin-bottom: 3%;
 }
 
 .vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns {padding-top: 15%;}
