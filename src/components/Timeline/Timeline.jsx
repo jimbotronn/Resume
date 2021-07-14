@@ -147,20 +147,18 @@ const Timeline = () => {
                       {/* End modal box news */}
                     </Modal>
                     {/* End modal */}.
-                   
+                    <div className="list_inner" onClick={toggleModalTwo}>
                     <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="2008 - 2015"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
    >
     <h3 className="vertical-timeline-element-title">System Administrator</h3>
-    <h4 className="vertical-timeline-element-subtitle">The Ohio State University</h4>
+    <h3 className="vertical-timeline-element-subtitle">The Ohio State University</h4>
     <p>
       User Experience, Visual Design
     </p>
-
   </VerticalTimelineElement>
-  <div className="list_inner" onClick={toggleModalTwo}>
   </div>
 
   <Modal
@@ -268,7 +266,7 @@ const Timeline = () => {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
    >
     <h3 className="vertical-timeline-element-title">System Coordinator</h3>
-    <h4 className="vertical-timeline-element-subtitle">The Ohio State University</h4>
+    <h3 className="vertical-timeline-element-subtitle">The Ohio State University</h4>
     <p>
       User Experience, Visual Design
     </p>
