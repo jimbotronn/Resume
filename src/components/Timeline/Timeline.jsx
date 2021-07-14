@@ -36,9 +36,9 @@ const Timeline = () => {
 <div className="list_inner" onClick={toggleModalOne}>
   <VerticalTimelineElement
     className="vertical-timeline-element--work list_inner1"
-    contentArrowStyle={{ borderRight: '7px solid  #c84d64' }}
+    contentArrowStyle={{ borderRight: '7px solid  #e65948' }}
     date="2011 - present"
-    iconStyle={{ background: '#c84d64', color: '#fff' }}
+    iconStyle={{ background: '#e65948', color: '#fff' }}
     >
     <h3 className="vertical-timeline-element-title">Senior Enterprise System Architect</h3>
     <h3 className="vertical-timeline-element-subtitle">Wexner Medical Center</h3>
@@ -124,7 +124,8 @@ const Timeline = () => {
                     <VerticalTimelineElement
     className="vertical-timeline-element--work list_inner2"
     date="2009 - 2015"
-    iconStyle={{ background: '#febe28', color: '#fff' }}
+    iconStyle={{ background: '#ffa000', color: '#fff' }}
+    contentArrowStyle={{ borderLeft: '7px solid  #ffa000' }}
     position="right"
    >
     <h3 className="vertical-timeline-element-title">System Administrator</h3>
@@ -218,6 +219,7 @@ const Timeline = () => {
     className="vertical-timeline-element--work list_inner3"
     date="2008 - 2009"
     iconStyle={{ background: '#5fa6a9', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  #5fa6a9' }}
    >
     <h3 className="vertical-timeline-element-title">System Coordinator</h3>
     <h3 className="vertical-timeline-element-subtitle">The Ohio State University</h3>
