@@ -331,7 +331,7 @@ h6 {
 .hamburger-inner::after {
   width: 30px;
   height: 2px;
-  background-color: #333333;
+  background-color: #ffffff;
   position: absolute;
   transition-property: transform;
   transition-duration: 0.15s;
@@ -859,7 +859,7 @@ body.loaded .overlay_effect:after {
   background-position: center;
   filter: drop-shadow(2px 4px 20px grey);
   height: 40vw;
-  @media screen and (max-width: 1366px) {
+  @media screen and (max-width: 1024) {
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -2967,6 +2967,7 @@ body.dark .shane_tm_settings .cursor li .svg,
 @media (max-width: 812px) {
   .slick-slide {
     width: 100% !important;
+    margin-bottom: 5%;
 }
 
 .itemLogo1, .itemLogo2 {
@@ -3408,6 +3409,10 @@ h3.vertical-timeline-element-subtitle {
   height: 90%;
   width: 4px;
   background: #757575;
+  @media screen and (max-width: 375px){
+    left: 2%;
+    top:13%;
+  }
   @media screen and (max-width: 812px){
     left: 6%;
     top:13%;
@@ -3443,7 +3448,7 @@ div#timeline {
 .vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns {
   padding-top: 15vh;
   @media screen and (max-width: 812px){
-    padding-top:20vh;
+    padding-top:25vh;
   }
 }
 

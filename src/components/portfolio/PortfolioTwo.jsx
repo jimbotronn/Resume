@@ -27,9 +27,9 @@ const PortfolioTwo = () => {
                 <Tabs>
                   <TabList>
                     <Tab>All</Tab>
-                    <Tab>Design & Development</Tab>
-                    <Tab>Business Systems</Tab>
-                    <Tab>Data Analysis & Visualization</Tab>
+                    <Tab>Development</Tab>
+                    <Tab>Business</Tab>
+                    <Tab>Data</Tab>
                   </TabList>
                   {/* End tablist */}
                   <div className="portfolio_list">
