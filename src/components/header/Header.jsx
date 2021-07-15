@@ -43,9 +43,6 @@ const Header = () => {
                 <a href="#timeline">Experience</a>
               </li>
               <li>
-                <a href="#news">News</a>
-              </li>
-              <li>
                 <a href="#contact">Contact</a>
               </li>
            
@@ -109,11 +106,6 @@ const Header = () => {
                 <li>
                   <a href="#timeline" onClick={handleClick}>
                     Experience
-                  </a>
-                </li>
-                <li>
-                  <a href="#news" onClick={handleClick}>
-                    News
                   </a>
                 </li>
                 <li>
