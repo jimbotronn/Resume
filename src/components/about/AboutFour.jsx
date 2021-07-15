@@ -9,6 +9,7 @@ const AboutFour = () => {
             <div className="about_inner">
               <div className="left">
                 <div className="image">
+                  <img src="/img/about/AboutMe.png" alt="placeholder" />
                   <div
                     className="main"
                     style={{
