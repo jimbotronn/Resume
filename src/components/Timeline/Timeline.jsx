@@ -74,7 +74,7 @@ const Timeline = () => {
                                 className="main"
                                 style={{
                                   backgroundImage: `url(${
-                                    process.env.PUBLIC_URL + "/img/news/wexner.jpg"
+                                    process.env.PUBLIC_URL + "/img/news/wexner.png"
                                   })`,
                                 }}
                               ></div>
@@ -162,7 +162,7 @@ const Timeline = () => {
                                 className="main"
                                 style={{
                                   backgroundImage: `url(${
-                                    process.env.PUBLIC_URL + "/img/news/wexner.jpg"
+                                    process.env.PUBLIC_URL + "/img/news/OSU.png"
                                   })`,
                                 }}
                               ></div>
@@ -256,7 +256,7 @@ const Timeline = () => {
                                 className="main"
                                 style={{
                                   backgroundImage: `url(${
-                                    process.env.PUBLIC_URL + "/img/news/wexner.jpg"
+                                    process.env.PUBLIC_URL + "/img/news/OSU.png"
                                   })`,
                                 }}
                               ></div>
