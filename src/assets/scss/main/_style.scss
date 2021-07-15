@@ -863,6 +863,7 @@ body.loaded .overlay_effect:after {
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
+    filter:none;
   }
 }
 .shane_tm_about .experience span {
@@ -2970,6 +2971,8 @@ body.dark .shane_tm_settings .cursor li .svg,
 
 .itemLogo1, .itemLogo2 {
     width: 35%;
+    min-width: 105px;
+}
 }
 }
 @media (max-width: 767px) {
@@ -3405,6 +3408,10 @@ h3.vertical-timeline-element-subtitle {
   height: 90%;
   width: 4px;
   background: #757575;
+  @media screen and (max-width: 812px){
+    left: 6%;
+    top:13%;
+  }
 }
 
 div#timeline {
@@ -3434,7 +3441,11 @@ div#timeline {
 }
 
 .vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns {
-  padding-top: 15vh;}
+  padding-top: 15vh;
+  @media screen and (max-width: 812px){
+    padding-top:20vh;
+  }
+}
 
 .list_inner1 .vertical-timeline-element-content.bounce-in:hover {
   background-color: #e65948;
