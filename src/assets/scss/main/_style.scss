@@ -3392,8 +3392,8 @@ h3.vertical-timeline-element-subtitle {
   content: "";
   position: absolute;
   top: 10%;
-  left: 11px;
-  height: 100%;
+  left: 2%;
+  height: 90%;
   width: 4px;
   background: #757575;
 }
@@ -3402,7 +3402,9 @@ div#timeline {
   padding-top: 100px;
 }
 
-.vertical-timeline-element--work.list_inner1.vertical-timeline-element,.vertical-timeline-element--work.list_inner3.vertical-timeline-element {
+.vertical-timeline-element--work.list_inner1.vertical-timeline-element,
+.vertical-timeline-element--work.list_inner2.vertical-timeline-element,
+.vertical-timeline-element--work.list_inner3.vertical-timeline-element {
   margin-bottom: 3%;
 }
 
@@ -3422,11 +3424,8 @@ div#timeline {
   color: #01354d;
 }
 
-.vertical-timeline-element--work.list_inner2.vertical-timeline-element.vertical-timeline-element--right {
-  margin-bottom: 3%;
-}
-
-.vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns {padding-top: 15%;}
+.vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns {
+  padding-top: 15vh;}
 
 .list_inner1 .vertical-timeline-element-content.bounce-in:hover {
   background-color: #e65948;
