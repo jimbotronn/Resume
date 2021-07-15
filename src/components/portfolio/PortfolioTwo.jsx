@@ -3,8 +3,8 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 import Reveal from "react-reveal/Reveal";
-import { FaHtml5, FaReact}from 'react-icons/fa';
-import { IoLogoJavascript } from "react-icons/io5";
+import { FaHtml5, FaReact, FaShopify}from 'react-icons/fa';
+import { IoLogoJavascript, IoLogoCss3 } from "react-icons/io5";
 import { MdWeb } from "react-icons/md";
 import Collapsible from 'react-collapsible';
 
@@ -36,15 +36,30 @@ const PortfolioTwo = () => {
                   <div className="portfolio_list">
                     <SRLWrapper>
                       <TabPanel>
-                      <Collapsible alt="Web" trigger="<MdWebWeb/> Web Development">
+                     <H5><FaHtml5/> </H5> <Collapsible alt="Web" trigger="Web Development">
       <ul><li>
-      <FaHtml5/>  HTML
+       HTML
       </li>
       <li>
-      <IoLogoJavascript/>  JavaScript
+      JavaScript
       </li>
       <li>
-      <FaReact/>  ReactJS
+      Liquid
+      </li>
+      <li>
+      ReactJS
+      </li>
+      <li>
+      CSS
+      </li>
+      <li>
+      JSON
+      </li>
+      <li>
+      REST API
+      </li>
+      <li>
+      XML
       </li>
       </ul>
 
