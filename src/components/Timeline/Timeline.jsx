@@ -367,12 +367,10 @@ const Timeline = () => {
                                and transportation plans for the team. Evolve team strategy based on game 
                                statistical analysis.  </p>
                             <ul><li>
-                            Developed and implemented effective policies and improved forecasting and 
-                            inventory management efficiency.  
+                            Won District Champion Title in 2015 and 2018 
                               </li>
                               <li>
-                              Improved business purchasing process by implementing automated vendors 
-                              order generation process. </li>
+                              Won Division I East Region Coach Achievement Award in 2017 </li>
 </ul>
                             </div>
                             {/* End description */}
