@@ -3411,6 +3411,10 @@ div#timeline {
   color: #5fa6a9;
 }
 
+.list_inner4 h3 {
+  color: #01354d;
+}
+
 .vertical-timeline-element--work.list_inner2.vertical-timeline-element.vertical-timeline-element--right {
   margin-bottom: 3%;
 }
@@ -3435,16 +3439,24 @@ div#timeline {
   cursor:pointer;
 }
 
+.list_inner4 .vertical-timeline-element-content.bounce-in:hover {
+  background-color: #01354d;
+  transition: all .5s ease-out;
+  cursor:pointer;
+}
+
 .list_inner1 .vertical-timeline-element-content.bounce-in:hover > h3,
 .list_inner2 .vertical-timeline-element-content.bounce-in:hover > h3,
-.list_inner3 .vertical-timeline-element-content.bounce-in:hover > h3 {
+.list_inner3 .vertical-timeline-element-content.bounce-in:hover > h3,
+.list_inner4 .vertical-timeline-element-content.bounce-in:hover > h3 {
   color: white;
   transition: all .5s ease-out;
 }
 
 .list_inner1 .vertical-timeline-element-content.bounce-in:hover > p,
 .list_inner2 .vertical-timeline-element-content.bounce-in:hover > p,
-.list_inner3 .vertical-timeline-element-content.bounce-in:hover > p {
+.list_inner3 .vertical-timeline-element-content.bounce-in:hover > p,
+.list_inner4 .vertical-timeline-element-content.bounce-in:hover > p {
   color: #464646    ;
   transition: all .5s ease-out;
 }

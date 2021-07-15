@@ -308,7 +308,7 @@ const Timeline = () => {
                     </Modal>
                     <div className="list_inner" onClick={toggleModalFour}>
                     <VerticalTimelineElement
-    className="vertical-timeline-element--work list_inner3"
+    className="vertical-timeline-element--work list_inner4"
     date="2008 - Present"
     iconStyle={{ background: '#01354d', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  #01354d' }}
