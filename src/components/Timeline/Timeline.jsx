@@ -320,7 +320,7 @@ const Timeline = () => {
 
     
   </VerticalTimelineElement>
-  </div>
+  </div><br></br><br></br>
   <Modal
                       isOpen={isOpen4}
                       onRequestClose={toggleModalFour}
