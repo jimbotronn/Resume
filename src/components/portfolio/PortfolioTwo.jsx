@@ -28,9 +28,9 @@ const PortfolioTwo = () => {
                 <Tabs>
                   <TabList>
                     <Tab>All</Tab>
-                    <Tab>Web</Tab>
-                    <Tab>Branding</Tab>
-                    <Tab>Photography</Tab>
+                    <Tab>Web Development</Tab>
+                    <Tab>Business Systems</Tab>
+                    <Tab>Data & Analytics</Tab>
                   </TabList>
                   {/* End tablist */}
                   <div className="portfolio_list">
@@ -43,44 +43,8 @@ const PortfolioTwo = () => {
                       {/* END ALL PORTFOLIO GALLERY */}
 
                       <TabPanel>
-                        <ul className="gallery_zoom">
-                          <li>
-                            <div className="inner">
-                              <div className="entry shane_tm_portfolio_animation_wrap">
-                                <a href="/img/portfolio/13.jpg">
-                                  <img
-                                    src="/img/portfolio/13.jpg"
-                                    alt="Branding"
-                                  />
-                                </a>
-                              </div>
-                              <div className="mobile_title">
-                                <h3>Blue Lemon</h3>
-                                <span>Branding</span>
-                              </div>
-                            </div>
-                          </li>
-                          {/* End single image block */}
-
-                          <li>
-                            <div className="inner">
-                              <div className="entry shane_tm_portfolio_animation_wrap">
-                                <a href="/img/portfolio/14.jpg">
-                                  <img
-                                    src="/img/portfolio/14.jpg"
-                                    alt="Photography"
-                                  />
-                                </a>
-                              </div>
-                              <div className="mobile_title">
-                                <h3>Sweet Cherry</h3>
-                                <span>Photography</span>
-                              </div>
-                            </div>
-                          </li>
-                          {/* End single image block */}
-                        </ul>
-                        {/* End portfolio list */}
+                      <ul alt="Web"><li>HTML</li><li>JavaScript</li><li>Liquid</li><li>ReactJS</li><li>CSS</li>
+      <li>JSON</li><li>REST API</li><li>XML</li></ul>
                       </TabPanel>
 
                       <TabPanel>
