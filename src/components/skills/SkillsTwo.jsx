@@ -28,7 +28,7 @@ const SkillsTwo = () => {
                   <div className="tokyo_progress">
                     <div className="progress_inner">
                       <span>
-                        <span className="label">Agile | Waterfall | DevOps</span>
+                        <span className="label">Agile      |      Waterfall      |      DevOps</span>
                         <span className="number"></span>
                       </span>
                       <div className="background">
@@ -44,7 +44,7 @@ const SkillsTwo = () => {
 
                     <div className="progress_inner">
                       <span>
-                        <span className="label">TOGAF | Zachman</span>
+                        <span className="label">TOGAF        |        Zachman</span>
                         <span className="number"></span>
                       </span>
                       <div className="background">
@@ -60,7 +60,7 @@ const SkillsTwo = () => {
 
                     <div className="progress_inner">
                       <span>
-                        <span className="label">IaaS | SaaS | PaaS Design</span>
+                        <span className="label">IaaS     |     SaaS     |     PaaS Design</span>
                         <span className="number"></span>
                       </span>
                       <div className="background">
