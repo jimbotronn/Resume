@@ -89,7 +89,7 @@ const Timeline = () => {
                               Senior Enterprise System Architect
                               </h3>
                               <p className="date">
-                              @ Wexner Medical Center <span>Apr 18 - Jan 21</span>
+                              @ Wexner Medical Center <br></br><br></br><span>Apr 18 - Jan 21</span>
                               </p>
                             </div>
                             {/* End details */}
@@ -186,7 +186,7 @@ const Timeline = () => {
                               System Administrator
                               </h3>
                               <p className="date">
-                              @ The Ohio State University <span>Sep 09 - Sep 15</span>
+                              @ The Ohio State University <br></br><br></br><span>Sep 09 - Sep 15</span>
                               </p>
                             </div>
                             {/* End details */}
@@ -280,7 +280,7 @@ const Timeline = () => {
                               System Coordinator
                               </h3>
                               <p className="date">
-                              @ The Ohio State University <span>Sep 08 - Sep 09</span>
+                              @ The Ohio State University <br></br><br></br><span>Sep 08 - Sep 09</span>
                               </p>
                             </div>
                             {/* End details */}
@@ -359,7 +359,7 @@ const Timeline = () => {
                               Head Coach - Men's Volleyball
                               </h3>
                               <p className="date">
-                              @ Westerville Central High School <span>2008 - Present</span>
+                              @ Westerville Central High School <br></br><br></br><span>2008 - Present</span>
                               </p>
                             </div>
                             {/* End details */}

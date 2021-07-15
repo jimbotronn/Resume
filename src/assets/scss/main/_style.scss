@@ -331,7 +331,7 @@ h6 {
 .hamburger-inner::after {
   width: 30px;
   height: 2px;
-  background-color: #ffffff;
+  background-color: #fff;
   position: absolute;
   transition-property: transform;
   transition-duration: 0.15s;
@@ -1750,6 +1750,10 @@ body.modal {
   width: 100%;
   float: left;
 }
+.shane_tm_modalbox_news .description ul {
+padding-left:4%;
+}
+
 .shane_tm_modalbox_news .description p {
   margin-bottom: 15px;
 }
@@ -1766,7 +1770,7 @@ body.modal {
   z-index: -1;
   margin-bottom: 24px;
   @media (max-width: 767px) {
-    height: auto;
+    /* height: auto;  */ 
   }
 }
 .shane_tm_modalbox_news .description_wrap .image img {
@@ -3414,7 +3418,7 @@ h3.vertical-timeline-element-subtitle {
     top:13%;
   }
   @media screen and (max-width: 812px){
-    left: 6%;
+    left: 3%;
     top:13%;
   }
 }
