@@ -10,7 +10,7 @@ const Footer = () => {
               <p>
                 &copy; {new Date().getFullYear()} by{" "}
 Jimi Yu.  
-                . All rights reserved.
+                All rights reserved.
               </p>
             </div>
             {/* End inner */}
