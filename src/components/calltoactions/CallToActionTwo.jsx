@@ -4,6 +4,7 @@ import Map from "../Map";
 import Contact from "../Contact";
 import Reveal from "react-reveal/Reveal";
 import Social from "../Social";
+import Link from "react-router-dom";
 
 Modal.setAppElement("#root");
 
@@ -20,7 +21,7 @@ const CallToActionTwo = () => {
         className="shane_tm_talk bg_image_props"
         style={{
           backgroundImage: `url(${
-            process.env.PUBLIC_URL + "img/callto-action/2.jpg"
+            process.env.PUBLIC_URL + "/img/callto-action/2.png"
           })`,
         }}
       >
@@ -43,9 +44,11 @@ const CallToActionTwo = () => {
           </Reveal>
           <Reveal effect="fadeInUp">
             <div className="button">
-              <button className="white-fill-bg" onClick={toggleModalOne}>
+            <Link to='https://calendly.com/jimiyu/'>
+              <button className="white-fill-bg" >
                 Make an enquiry
               </button>
+              </Link>
             </div>
           </Reveal>
         </div>
