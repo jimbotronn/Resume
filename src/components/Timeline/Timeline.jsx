@@ -356,7 +356,7 @@ const Timeline = () => {
                             {/* End image */}
                             <div className="details">
                               <h3 className="title">
-                              Men's Volleyball Head Coach
+                              Head Coach - Men's Volleyball
                               </h3>
                               <p className="date">
                               @ Westerville Central High School <span>2008 - Present</span>
