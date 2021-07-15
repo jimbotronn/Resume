@@ -55,28 +55,7 @@ const HomeFour = () => {
 
       {/* End shane_tm_partners */}
 
-      <div className="shane_tm_section">
-        <div className="shane_tm_testimonials">
-          <div className="container">
-            <div className="testimonials_inner">
-              <Reveal effect="fadeInRight">
-                <div className="left">
-                  <div className="shane_tm_title">
-                    <span>Testimonials</span>
-                    <h3>What clients say about my portfolio template</h3>
-                  </div>
-                </div>
-              </Reveal>
-              <Reveal effect="fadeInRight">
-                <div className="right">
-                  <Testimonial />
-                </div>
-              </Reveal>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* End  shane_tm_testimonials*/}
+
 
       {/*<News /> End Blog Section */}
 
