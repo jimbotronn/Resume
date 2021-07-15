@@ -394,7 +394,7 @@ h6 {
 .my_trigger .hamburger .hamburger-inner::before,
 .my_trigger .hamburger .hamburger-inner::after,
 .my_trigger .hamburger .hamburger-inner {
-  background-color: #000;
+  background-color: rgb(255, 255, 255);
   width: 26px;
   transition: all 0.3s ease;
 }
@@ -859,7 +859,7 @@ body.loaded .overlay_effect:after {
   background-position: center;
   filter: drop-shadow(2px 4px 20px grey);
   height: 40vw;
-  @media screen and (max-width: 1024) {
+  @media screen and (max-width: 1024px) {
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -3419,7 +3419,7 @@ h3.vertical-timeline-element-subtitle {
     top:13%;
   }
   @media screen and (max-width: 375px){
-    left: 2%;
+    left: 5%;
     top:13%;
   }
 }
