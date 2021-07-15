@@ -60,7 +60,7 @@ const Header = () => {
             <div className="topbar_in">
               <div className="logo">
                 <NavLink to="/">
-                  <img src="/resume/img/logo/new/dark.png" alt="partners brand" />
+                  <img src="/resume/img/logo/new/light.png" alt="partners brand" />
                 </NavLink>
               </div>
               {/* End logo */}
