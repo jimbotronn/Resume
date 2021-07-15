@@ -28,7 +28,7 @@ const PortfolioTwo = () => {
                 <Tabs>
                   <TabList>
                     <Tab>All</Tab>
-                    <Tab>Design</Tab>
+                    <Tab>Web</Tab>
                     <Tab>Branding</Tab>
                     <Tab>Photography</Tab>
                   </TabList>
@@ -36,139 +36,9 @@ const PortfolioTwo = () => {
                   <div className="portfolio_list">
                     <SRLWrapper>
                       <TabPanel>
-                     <h5><FaHtml5/> </h5> <Collapsible alt="Web" trigger="Web Development">
-      <ul><li>
-       HTML
-      </li>
-      <li>
-      JavaScript
-      </li>
-      <li>
-      Liquid
-      </li>
-      <li>
-      ReactJS
-      </li>
-      <li>
-      CSS
-      </li>
-      <li>
-      JSON
-      </li>
-      <li>
-      REST API
-      </li>
-      <li>
-      XML
-      </li>
-      </ul>
-
-    </Collapsible>
-                        <ul className="gallery_zoom" alt="Web">
-                
-                          {/* End single image block */}
-
-                          <li>
-                            <Reveal effect="fadeIn">
-                              <div className="inner">
-                                <div className="entry shane_tm_portfolio_animation_wrap">
-                                  <a href="/img/portfolio/14.jpg">
-                                    <img
-                                      src="/img/portfolio/14.jpg"
-                                      alt="Branding"
-                                    />
-                                  </a>
-                                </div>
-                                <div className="mobile_title">
-                                  <h3>Good Present</h3>
-                                  <span>Branding</span>
-                                </div>
-                              </div>
-                            </Reveal>
-                          </li>
-                          {/* End single image block */}
-
-                          <li>
-                            <Reveal effect="fadeIn">
-                              <div className="inner">
-                                <div className="entry shane_tm_portfolio_animation_wrap">
-                                  <a href="/img/portfolio/15.jpg">
-                                    <img
-                                      src="/img/portfolio/15.jpg"
-                                      alt="Photography"
-                                    />
-                                  </a>
-                                </div>
-                                <div className="mobile_title">
-                                  <h3>Ice Cream</h3>
-                                  <span>Photography</span>
-                                </div>
-                              </div>
-                            </Reveal>
-                          </li>
-                          {/* End single image block */}
-
-                          <li>
-                            <Reveal effect="fadeIn">
-                              <div className="inner">
-                                <div className="entry shane_tm_portfolio_animation_wrap">
-                                  <a href="/img/portfolio/24.jpg">
-                                    <img
-                                      src="/img/portfolio/24.jpg"
-                                      alt="Design"
-                                    />
-                                  </a>
-                                </div>
-                                <div className="mobile_title">
-                                  <h3>Black Coffee</h3>
-                                  <span>Design</span>
-                                </div>
-                              </div>
-                            </Reveal>
-                          </li>
-                          {/* End single image block */}
-
-                          <li>
-                            <Reveal effect="fadeIn">
-                              <div className="inner">
-                                <div className="entry shane_tm_portfolio_animation_wrap">
-                                  <a href="/img/portfolio/11.jpg">
-                                    <img
-                                      src="/img/portfolio/11.jpg"
-                                      alt="Branding"
-                                    />
-                                  </a>
-                                </div>
-                                <div className="mobile_title">
-                                  <h3>Blue Lemon</h3>
-                                  <span>Branding</span>
-                                </div>
-                              </div>
-                            </Reveal>
-                          </li>
-                          {/* End single image block */}
-
-                          <li>
-                            <Reveal effect="fadeIn">
-                              <div className="inner">
-                                <div className="entry shane_tm_portfolio_animation_wrap">
-                                  <a href="/img/portfolio/16.jpg">
-                                    <img
-                                      src="/img/portfolio/16.jpg"
-                                      alt="Photography"
-                                    />
-                                  </a>
-                                </div>
-                                <div className="mobile_title">
-                                  <h3>Sweet Cherry</h3>
-                                  <span>Photography</span>
-                                </div>
-                              </div>
-                            </Reveal>
-                          </li>
-                          {/* End single image block */}
-                        </ul>
-                        {/* End portfolio list */}
+    
+      <ul alt="Web"><li>HTML</li><li>JavaScript</li><li>Liquid</li><li>ReactJS</li><li>CSS</li>
+      <li>JSON</li><li>REST API</li><li>XML</li></ul>
                       </TabPanel>
                       {/* END ALL PORTFOLIO GALLERY */}
 
