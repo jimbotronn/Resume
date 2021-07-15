@@ -113,7 +113,7 @@ const Timeline = () => {
                               and integration middleware.      </li>
                               <li>
                               Improved critical change management effectiveness by monitoring, 
-                              analyzing, and reshaping staff engagement behavior in response to changes.        </li></ul>
+                              analyzing, and reshaping staff engagement behavior in response to changes.        </li></ul><br></br><br></br>
                               <blockquote>
                               In January, shortly after the launch of the new ERP system, I left my employer
                                for over 11 years, The Ohio State University,  to avoid starting on new major 
@@ -310,8 +310,10 @@ const Timeline = () => {
                     <VerticalTimelineElement
     className="vertical-timeline-element--work list_inner3"
     date="2008 - Present"
-    iconStyle={{ background: '#5fa6a9', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #5fa6a9' }}
+    iconStyle={{ background: '#01354d', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  #01354d' }}
+    position="right"
+    
    >
     <h3 className="vertical-timeline-element-title">Head Coach - Men's Volleyball</h3>
     <h3 className="vertical-timeline-element-subtitle">Westerville Central High School</h3>
