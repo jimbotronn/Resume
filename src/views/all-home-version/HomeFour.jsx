@@ -78,8 +78,7 @@ const HomeFour = () => {
       </div>
       {/* End  shane_tm_testimonials*/}
 
-      <News />
-      {/* End Blog Section */}
+      {/*<News /> End Blog Section */}
 
       <CallToAction />
       {/* End CallToAction */}
