@@ -28,106 +28,48 @@ const PortfolioTwo = () => {
                 <Tabs>
                   <TabList>
                     <Tab>All</Tab>
-                    <Tab>Web Development</Tab>
+                    <Tab>Design & Development</Tab>
                     <Tab>Business Systems</Tab>
-                    <Tab>Data & Analytics</Tab>
+                    <Tab>Data Analysis & Visualization</Tab>
                   </TabList>
                   {/* End tablist */}
                   <div className="portfolio_list">
-                    <SRLWrapper>
-                      <TabPanel>
+                                         <TabPanel>
     
-      <ul alt="Web"><li>HTML</li><li>JavaScript</li><li>Liquid</li><li>ReactJS</li><li>CSS</li>
-      <li>JSON</li><li>REST API</li><li>XML</li></ul>
+      <ul>li>HTML</li><li>JavaScript</li><li>Liquid</li><li>ReactJS</li><li>CSS</li>
+      <li>JSON</li><li>REST API</li><li>XML</li><li>Adobe DreamWeaver</li><li>Adobe Photoshop</li>
+      <li>Adobe Illustrator</li><li>Adobe XD</li><li>Invision</li><li>Adobe Photoshop</li><li>Velo and Wix Code</li><li>AS400</li><li>Kronos</li><li>Adobe Acrobat</li><li>Google Docs, Sheets, Slides, and Form</li>
+                      <li>Google Workspace</li><li>Microsoft Words, Excel, Outlook, PowerPoint, and Forms</li><li>Microsoft Teams, Planners</li><li>GHX</li>
+                      <li>ERP Systems (PeopleSoft, Workday)</li><li>Microsoft Power Platform (PowerApps, PowerAutomate)</li>
+                      <li>Microsoft Sharepoint, Visio, and Project</li>
+                      <li>CRM Systems (SalesForce, ServiceNow)</li><li>POS Systems (Sequia, Squre, Micros, MyMicros)</li>
+      <li>Monday.com</li><li>Asana</li><li>JIRA</li><li>Azure Board</li><li>Inventory Systems (Omnicell, Tecsys, CBORD)</li><li>Microsoft Power BI</li><li>Tableau</li><li>SQL Database & Queries</li><li></li>
+                      <li>Google Workspace</li><li>DataVolley</li><li>LucideChart</li><li>SmartDraw</li>
+                      <li>BarTender</li><li>Nuvia</li></ul>
                       </TabPanel>
                       {/* END ALL PORTFOLIO GALLERY */}
 
                       <TabPanel>
                       <ul alt="Web"><li>HTML</li><li>JavaScript</li><li>Liquid</li><li>ReactJS</li><li>CSS</li>
-      <li>JSON</li><li>REST API</li><li>XML</li></ul>
+      <li>JSON</li><li>REST API</li><li>XML</li><li>Adobe DreamWeaver</li><li>Adobe Photoshop</li>
+      <li>Adobe Illustrator</li><li>Adobe XD</li><li>Invision</li><li>Adobe Photoshop</li><li>Velo and Wix Code</li><li>Google Analytics</li></ul>
                       </TabPanel>
 
                       <TabPanel>
-                        <ul className="gallery_zoom">
-                          <li>
-                            <div className="inner">
-                              <div className="entry shane_tm_portfolio_animation_wrap">
-                                <a href="/img/portfolio/24.jpg">
-                                  <img
-                                    src="/img/portfolio/24.jpg"
-                                    alt="Design"
-                                  />
-                                </a>
-                              </div>
-                              <div className="mobile_title">
-                                <h3>Sweet Fruit</h3>
-                                <span>Design</span>
-                              </div>
-                            </div>
-                          </li>
-                          {/* End single image block */}
-
-                          <li>
-                            <div className="inner">
-                              <div className="entry shane_tm_portfolio_animation_wrap">
-                                <a href="/img/portfolio/15.jpg">
-                                  <img
-                                    src="/img/portfolio/15.jpg"
-                                    alt="Branding"
-                                  />
-                                </a>
-                              </div>
-                              <div className="mobile_title">
-                                <h3>Good Present</h3>
-                                <span>Branding</span>
-                              </div>
-                            </div>
-                          </li>
-                        </ul>
-                        {/* End single image block */}
+                      <ul alt="Business"><li>AS400</li><li>Kronos</li><li>Adobe Acrobat</li><li>Google Docs, Sheets, Slides, and Form</li>
+                      <li>Google Workspace</li><li>Microsoft Words, Excel, Outlook, PowerPoint, and Forms</li><li>Microsoft Teams, Planners</li><li>GHX</li>
+                      <li>ERP Systems (PeopleSoft, Workday)</li><li>Microsoft Power Platform (PowerApps, PowerAutomate)</li>
+                      <li>Microsoft Sharepoint, Visio, and Project</li>
+                      <li>CRM Systems (SalesForce, ServiceNow)</li><li>POS Systems (Sequia, Squre, Micros, MyMicros)</li>
+      <li>Monday.com</li><li>Asana</li><li>JIRA</li><li>Azure Board</li><li>Inventory Systems (Omnicell, Tecsys, CBORD)</li></ul>
                       </TabPanel>
 
                       <TabPanel>
-                        <ul className="gallery_zoom">
-                          <li>
-                            <div className="inner">
-                              <div className="entry shane_tm_portfolio_animation_wrap">
-                                <a href="/img/portfolio/11.jpg">
-                                  <img
-                                    src="/img/portfolio/11.jpg"
-                                    alt="Branding"
-                                  />
-                                </a>
-                              </div>
-                              <div className="mobile_title">
-                                <h3>Blue Lemon</h3>
-                                <span>Branding</span>
-                              </div>
-                            </div>
-                          </li>
-                          {/* End single image block */}
-
-                          <li>
-                            <div className="inner">
-                              <div className="entry shane_tm_portfolio_animation_wrap">
-                                <a href="/img/portfolio/16.jpg">
-                                  <img
-                                    src="/img/portfolio/16.jpg"
-                                    alt="Photography"
-                                  />
-                                </a>
-                              </div>
-                              <div className="mobile_title">
-                                <h3>Sweet Cherry</h3>
-                                <span>Photography</span>
-                              </div>
-                            </div>
-                          </li>
-                        </ul>
-                        {/* End single image block */}
+                      <ul alt="Data"><li>Microsoft Power BI</li><li>Tableau</li><li>SQL Database & Queries</li><li></li>
+                      <li>Google Workspace</li><li>DataVolley</li><li>LucideChart</li><li>SmartDraw</li>
+                      <li>BarTender</li><li>Nuvia</li></ul>
                       </TabPanel>
-                    </SRLWrapper>
-                    {/* End tabpanel */}
+                                   {/* End tabpanel */}
                   </div>
                   {/* End list wrapper */}
                 </Tabs>
