@@ -36,7 +36,7 @@ const PortfolioTwo = () => {
                   <div className="portfolio_list">
                     <SRLWrapper>
                       <TabPanel>
-                     <H5><FaHtml5/> </H5> <Collapsible alt="Web" trigger="Web Development">
+                     <h5><FaHtml5/> </h5> <Collapsible alt="Web" trigger="Web Development">
       <ul><li>
        HTML
       </li>
