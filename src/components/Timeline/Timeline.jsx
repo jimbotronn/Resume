@@ -74,7 +74,7 @@ const Timeline = () => {
                                 className="main"
                                 style={{
                                   backgroundImage: `url(${
-                                    process.env.PUBLIC_URL + "/img/news/wexner.png"
+                                    process.env.PUBLIC_URL + "/img/news/Wexner.png"
                                   })`,
                                 }}
                               ></div>

@@ -1001,8 +1001,11 @@ body.loaded .overlay_effect:after {
   padding-top: 89px;
 }
 .shane_tm_portfolio .portfolio_list ul {
-  margin: 0px 0px 0px -50px;
+  margin: 0 0 0 0px;
   list-style-type: none;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
 }
 .shane_tm_portfolio .portfolio_list ul li {
   margin: 0 0 10px;
