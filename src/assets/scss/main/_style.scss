@@ -286,7 +286,7 @@ h6 {
   height: auto;
   float: left;
   clear: both;
-  background-color: #01354d;
+  background-color: black ;
   padding: 20px 0px;
   box-shadow: 0 10px 40px 0 rgba(62, 68, 125, 0.1);
 }
@@ -2962,6 +2962,15 @@ body.dark .shane_tm_settings .cursor li .svg,
   .shane_tm_hero .image {
     background-position: 51% 100%;
   }
+}
+@media (max-width: 812px) {
+  .slick-slide {
+    width: 100% !important;
+}
+
+.itemLogo1, .itemLogo2 {
+    width: 35%;
+}
 }
 @media (max-width: 767px) {
   .shane_tm_hero .content {
