@@ -3413,12 +3413,13 @@ h3.vertical-timeline-element-subtitle {
   height: 90%;
   width: 4px;
   background: #757575;
-  @media screen and (max-width: 375px){
-    left: 2%;
-    top:13%;
-  }
+
   @media screen and (max-width: 812px){
     left: 3%;
+    top:13%;
+  }
+  @media screen and (max-width: 375px){
+    left: 2%;
     top:13%;
   }
 }
