@@ -36,7 +36,7 @@ const PortfolioTwo = () => {
                   <div className="portfolio_list">
                                          <TabPanel>
     
-      <ul>li>HTML</li><li>JavaScript</li><li>Liquid</li><li>ReactJS</li><li>CSS</li>
+      <ul><li>HTML</li><li>JavaScript</li><li>Liquid</li><li>ReactJS</li><li>CSS</li>
       <li>JSON</li><li>REST API</li><li>XML</li><li>Adobe DreamWeaver</li><li>Adobe Photoshop</li>
       <li>Adobe Illustrator</li><li>Adobe XD</li><li>Invision</li><li>Adobe Photoshop</li><li>Velo and Wix Code</li><li>AS400</li><li>Kronos</li><li>Adobe Acrobat</li><li>Google Docs, Sheets, Slides, and Form</li>
                       <li>Google Workspace</li><li>Microsoft Words, Excel, Outlook, PowerPoint, and Forms</li><li>Microsoft Teams, Planners</li><li>GHX</li>
