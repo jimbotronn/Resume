@@ -988,7 +988,7 @@ body.loaded .overlay_effect:after {
   clear: both;
   float: left;
   background-color: #f9f9f9;
-  padding: 150px 0px 100px 0px;
+  padding: 50px 0px 100px 0px;
   @media screen and (max-width: 992px) {
     padding: 60px 0px 40px;
   }
@@ -1005,10 +1005,9 @@ body.loaded .overlay_effect:after {
   list-style-type: none;
 }
 .shane_tm_portfolio .portfolio_list ul li {
-  margin: 0px 0px 50px 0px;
-  width: 33.3333%;
+  margin: 0 0 10px;
   float: left;
-  padding-left: 50px;
+  padding-left: 40px;
 }
 .shane_tm_portfolio .portfolio_list ul li .inner {
   width: 100%;
