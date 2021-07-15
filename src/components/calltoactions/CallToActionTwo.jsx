@@ -44,10 +44,10 @@ const CallToActionTwo = () => {
           </Reveal>
           <Reveal effect="fadeInUp">
             <div className="button">
-            <a href='https://calendly.com/jimiyu/'>
-              <button className="white-fill-bg" >
+            <a className="white-fill-bg" href='https://calendly.com/jimiyu/'>
+              
                 Make an enquiry
-              </button>
+           
               </a>
             </div>
           </Reveal>
