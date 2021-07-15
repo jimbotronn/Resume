@@ -1766,13 +1766,21 @@ padding-left:4%;
 }
 .shane_tm_modalbox_news .description_wrap .image {
   position: relative;
-  height: 100px;
+  height: 80px;
   z-index: -1;
   margin-bottom: 24px;
   @media (max-width: 767px) {
     display:none;
   }
 }
+.shane_tm_modalbox_news h3.title{
+  font-size:20px;
+}
+
+.shane_tm_modalbox_news .description{
+  color: black;
+}
+
 .shane_tm_modalbox_news .description_wrap .image img {
   min-width: 100%;
 }
