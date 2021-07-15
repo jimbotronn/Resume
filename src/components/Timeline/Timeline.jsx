@@ -12,6 +12,7 @@ const Timeline = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isOpen2, setIsOpen2] = useState(false);
     const [isOpen3, setIsOpen3] = useState(false);
+    const [isOpen4, setIsOpen4] = useState(false);
   
     function toggleModalOne() {
       setIsOpen(!isOpen);
@@ -21,6 +22,9 @@ const Timeline = () => {
     }
     function toggleModalThree() {
       setIsOpen3(!isOpen3);
+    }
+    function toggleModalFour() {
+      setIsOpen4(!isOpen4);
     }
   
     return (
@@ -43,7 +47,7 @@ const Timeline = () => {
     <h3 className="vertical-timeline-element-title">Senior Enterprise System Architect</h3>
     <h3 className="vertical-timeline-element-subtitle">Wexner Medical Center</h3>
     <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+      Strategic Direction, User Experience, Visual Design, Project Management, Change Management
     </p>
   </VerticalTimelineElement>
   </div>
@@ -108,8 +112,17 @@ const Timeline = () => {
                               model for core applications through javascript, JSON, REST APIs, XML, 
                               and integration middleware.      </li>
                               <li>
-                              	Improved critical change management effectiveness by monitoring, 
+                              Improved critical change management effectiveness by monitoring, 
                               analyzing, and reshaping staff engagement behavior in response to changes.        </li></ul>
+                              <blockquote>
+                              In January, shortly after the launch of the new ERP system, I left my employer
+                               for over 11 years, The Ohio State University,  to avoid starting on new major 
+                               projects and to further advance my career through new opportunities. <br></br><br></br> 
+                               Since then, I took some time away from my profession and dedicated my full 
+                               attention to a high school men's volleyball team that I've coached for 13 seasons.  
+                               Pandemic lockdown abruptly ended the 2020 season and it was devastating for the players, 
+                               so I wanted to give the team my undivided attention before starting a new position.   
+                              </blockquote>
                             </div>
                             {/* End description */}
                             {/* End news share */}
@@ -131,7 +144,7 @@ const Timeline = () => {
     <h3 className="vertical-timeline-element-title">System Administrator</h3>
     <h3 className="vertical-timeline-element-subtitle">The Ohio State University</h3>
     <p>
-      User Experience, Visual Design
+      Solution Design & Implementation, Change Management, Data Governance, Process Improvements
     </p>
   </VerticalTimelineElement>
   </div><br></br><br></br>
@@ -224,7 +237,7 @@ const Timeline = () => {
     <h3 className="vertical-timeline-element-title">System Coordinator</h3>
     <h3 className="vertical-timeline-element-subtitle">The Ohio State University</h3>
     <p>
-      User Experience, Visual Design
+      Requirement Gathering, Knowledge Capture, Training & Support
     </p>
     
   </VerticalTimelineElement>
@@ -276,6 +289,83 @@ const Timeline = () => {
                                  operational process improvements and efficiencies. Established standardize 
                                  change management practice. Developed end-user training by maintaining and 
                                  creating technical and user documentation for business applications. </p>
+                            <ul><li>
+                            Developed and implemented effective policies and improved forecasting and 
+                            inventory management efficiency.  
+                              </li>
+                              <li>
+                              Improved business purchasing process by implementing automated vendors 
+                              order generation process. </li>
+</ul>
+                            </div>
+                            {/* End description */}
+                            {/* End news share */}
+                          </div>
+                        </div>
+                        {/* End box inner */}
+                      </div>
+                      {/* End modal box news */}
+                    </Modal>
+                    <div className="list_inner" onClick={toggleModalFour}>
+                    <VerticalTimelineElement
+    className="vertical-timeline-element--work list_inner3"
+    date="2008 - Present"
+    iconStyle={{ background: '#5fa6a9', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  #5fa6a9' }}
+   >
+    <h3 className="vertical-timeline-element-title">Head Coach - Men's Volleyball</h3>
+    <h3 className="vertical-timeline-element-subtitle">Westerville Central High School</h3>
+
+    
+  </VerticalTimelineElement>
+  </div>
+  <Modal
+                      isOpen={isOpen4}
+                      onRequestClose={toggleModalFour}
+                      contentLabel="My dialog"
+                      className="custom-modal"
+                      overlayClassName="custom-overlay"
+                      closeTimeoutMS={500}
+                    >
+                      <div className="shane_tm_modalbox_news">
+                        <button
+                          className="close-modal"
+                          onClick={toggleModalFour}
+                        >
+                          <img src="/resume/img/svg/cancel.svg" alt="close icon" />
+                        </button>
+                        {/* End close icon */}
+                        <div className="box_inner">
+                          <div className="description_wrap scrollable">
+                            <div className="image">
+                              <img
+                                src="/resume/img/placeholders/4-3.jpg"
+                                alt="thumb"
+                              />
+                              <div
+                                className="main"
+                                style={{
+                                  backgroundImage: `url(${
+                                    process.env.PUBLIC_URL + "/img/news/wchs.png"
+                                  })`,
+                                }}
+                              ></div>
+                            </div>
+                            {/* End image */}
+                            <div className="details">
+                              <h3 className="title">
+                              Men's Volleyball Head Coach
+                              </h3>
+                              <p className="date">
+                              @ Westerville Central High School <span>2008 - Present</span>
+                              </p>
+                            </div>
+                            {/* End details */}
+                            <div className="description">
+                            <p>Coaching and mentoring student-athletes.  Develop practice and conditioning
+                               plans and team-building activities. Manage budgets, fundraising activities, 
+                               and transportation plans for the team. Evolve team strategy based on game 
+                               statistical analysis.  </p>
                             <ul><li>
                             Developed and implemented effective policies and improved forecasting and 
                             inventory management efficiency.  
