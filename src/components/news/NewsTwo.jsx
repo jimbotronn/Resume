@@ -52,7 +52,7 @@ const NewsTwo = () => {
                         Senior Enterprise System Architect
                       </h3>
                       <p className="date">
-                        @ Wexner Medical Center <span>Apr 18 - Jan 21</span>
+                        @ Wexner Medical Center <br></br><br></br><span>Apr 18 - Jan 21</span>
                       </p>
                     </div>
                     {/* End details */}
@@ -96,7 +96,7 @@ const NewsTwo = () => {
                               Senior Enterprise System Architect
                               </h3>
                               <p className="date">
-                              @ Wexner Medical Center <span>Apr 18 - Jan 21</span>
+                              @ Wexner Medical Center <br></br><br></br><span>Apr 18 - Jan 21</span>
                               </p>
                             </div>
                             {/* End details */}
