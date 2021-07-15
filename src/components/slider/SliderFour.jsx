@@ -43,10 +43,10 @@ const Slider = () => {
             </div>
             {/* End designation */}
             <a
-              href="#portfolio"
+              href="#about"
               className="white-fill-bg btn-outline btn-medium"
             >
-              SEE PORTFOLIO
+              LEARN MORE
               <span className="overlay_effect"></span>
             </a>
           </div>
