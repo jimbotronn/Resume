@@ -34,7 +34,7 @@ const Timeline = () => {
         <div className="container">
           <div className="shane_tm_title">
             <span>Experience</span>
-            <h3>Work Experience</h3>
+            <h3>Professional & Relevant Experience</h3>
           </div>
 <VerticalTimeline>
 <div className="list_inner" onClick={toggleModalOne}>
