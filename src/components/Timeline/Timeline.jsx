@@ -89,7 +89,7 @@ const Timeline = () => {
                               Senior Enterprise System Architect
                               </h3>
                               <p className="date">
-                              @ Wexner Medical Center <br></br><span>Apr 18 - Jan 21</span>
+                              @ Wexner Medical Center <br></br>Apr 18 - Jan 21
                               </p>
                             </div>
                             {/* End details */}
