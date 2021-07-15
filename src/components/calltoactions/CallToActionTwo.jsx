@@ -4,7 +4,7 @@ import Map from "../Map";
 import Contact from "../Contact";
 import Reveal from "react-reveal/Reveal";
 import Social from "../Social";
-import Link from "react-router-dom";
+
 
 Modal.setAppElement("#root");
 
@@ -44,11 +44,11 @@ const CallToActionTwo = () => {
           </Reveal>
           <Reveal effect="fadeInUp">
             <div className="button">
-            <Link to='https://calendly.com/jimiyu/'>
+            <a href='https://calendly.com/jimiyu/'>
               <button className="white-fill-bg" >
                 Make an enquiry
               </button>
-              </Link>
+              </a>
             </div>
           </Reveal>
         </div>
