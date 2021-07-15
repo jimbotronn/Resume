@@ -18,9 +18,8 @@ const PortfolioTwo = () => {
               <div className="shane_tm_title">
                 <div className="title_flex">
                   <div className="left">
-                    <span>Portfolio</span>
-                    <h3>Creative Portfolio</h3>
-                  </div>
+                    <span>Technical Skills</span>
+                                    </div>
                 </div>
               </div>
               {/* End shane_tm_title */}
