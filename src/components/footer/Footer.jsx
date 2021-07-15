@@ -9,13 +9,7 @@ const Footer = () => {
             <div className="inner">
               <p>
                 &copy; {new Date().getFullYear()} by{" "}
-                <a
-                  href="https://themeforest.net/user/ib-themes"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  ib-themes
-                </a>
+Jimi Yu.  
                 . All rights reserved.
               </p>
             </div>
