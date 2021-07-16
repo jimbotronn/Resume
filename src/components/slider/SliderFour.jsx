@@ -1,6 +1,7 @@
 import React from "react";
 import TextLoop from "react-text-loop";
 import Particles from 'react-particles-js';
+import tsParticles  from "tsparticles";
 
 const Slider = () => {
   return (
