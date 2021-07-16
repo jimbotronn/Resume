@@ -280,7 +280,7 @@ const Timeline = () => {
                               System Coordinator
                               </h3>
                               <p className="date">
-                              @ The Ohio State University <br></br>Sep 08 - Sep 09
+                              @ The Ohio State University <br></br>Sep 08 - Sep 09</p>
                             </div>
                             {/* End details */}
                             <div className="description">
