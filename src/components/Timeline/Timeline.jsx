@@ -316,7 +316,9 @@ const Timeline = () => {
    >
     <h3 className="vertical-timeline-element-title">Head Coach - Men's Volleyball</h3>
     <h3 className="vertical-timeline-element-subtitle">Westerville Central High School</h3>
-
+    <p>
+      Mentorship 
+    </p>
     
   </VerticalTimelineElement>
   </div>
