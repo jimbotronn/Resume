@@ -24,7 +24,7 @@ const Header = () => {
    
       <div className="shane_tm_topbar">
         <div className={navbar ? "topbar_inner opened" : "topbar_inner"}>
-        <div className="logo"> <NavLink to="/"> <img src="/resume/img/logo/new/dark.png" alt="partners brand" /> </NavLink>  </div> 
+        <div className="logo"> <NavLink to="https://jimbotronn.github.io/resume/"> <img src="/resume/img/logo/new/dark.png" alt="partners brand" /> </NavLink>  </div> 
           <div className="menu">
             <Scrollspy
               className="anchor_nav"
@@ -61,7 +61,7 @@ const Header = () => {
           <div className="container bigger">
             <div className="topbar_in">
               <div className="logo">
-                <NavLink to="/">
+                <NavLink to="https://jimbotronn.github.io/resume/">
                   <img src="/resume/img/logo/new/light.png" alt="partners brand" />
                 </NavLink>
               </div>
