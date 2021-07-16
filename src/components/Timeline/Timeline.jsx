@@ -186,7 +186,7 @@ const Timeline = () => {
                               System Administrator
                               </h3>
                               <p className="date">
-                              @ The Ohio State University <br></br><span>Sep 09 - Sep 15</span>
+                              @ The Ohio State University <br></br>Sep 09 - Sep 15
                               </p>
                             </div>
                             {/* End details */}
@@ -280,8 +280,7 @@ const Timeline = () => {
                               System Coordinator
                               </h3>
                               <p className="date">
-                              @ The Ohio State University <br></br><span>Sep 08 - Sep 09</span>
-                              </p>
+                              @ The Ohio State University <br></br>Sep 08 - Sep 09
                             </div>
                             {/* End details */}
                             <div className="description">
@@ -359,7 +358,7 @@ const Timeline = () => {
                               Head Coach - Men's Volleyball
                               </h3>
                               <p className="date">
-                              @ Westerville Central High School <br></br><span>2008 - Present</span>
+                              @ Westerville Central High School <br></br>2008 - Present
                               </p>
                             </div>
                             {/* End details */}
