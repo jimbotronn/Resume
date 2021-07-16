@@ -3499,9 +3499,13 @@ div#timeline {
 
 .list_inner1 .vertical-timeline-element-content.bounce-in:hover > p,
 .list_inner2 .vertical-timeline-element-content.bounce-in:hover > p,
-.list_inner3 .vertical-timeline-element-content.bounce-in:hover > p,
-.list_inner4 .vertical-timeline-element-content.bounce-in:hover > p {
+.list_inner3 .vertical-timeline-element-content.bounce-in:hover > p {
   color: #464646    ;
+  transition: all .5s ease-out;
+}
+
+.list_inner4 .vertical-timeline-element-content.bounce-in:hover > p {
+  color: #868686    ;
   transition: all .5s ease-out;
 }
 
