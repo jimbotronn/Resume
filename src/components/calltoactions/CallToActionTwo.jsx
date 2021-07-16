@@ -43,7 +43,7 @@ const CallToActionTwo = () => {
             <div className="button">
             <a className="white-fill-bg" href='https://calendly.com/jimiyu/'>
               
-                Make an enquiry
+                Make an inquiry
            
               </a>
             </div>
