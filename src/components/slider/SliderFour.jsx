@@ -7,9 +7,9 @@ const Slider = () => {
   return (
     
     <div className="slider-four">
-      <Particles></Particles>
-      <div className="shane_tm_hero" id="home" data-style="one">
+       <div className="shane_tm_hero" id="home" data-style="one">
         <div className="background">
+        <Particles></Particles>
           <div
             className="image"
             style={{
