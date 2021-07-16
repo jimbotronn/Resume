@@ -4,7 +4,7 @@ import Particles from 'react-particles-js';
 
 const Slider = () => {
   return (
-    <Particles/>
+    <Particles>
     <div className="slider-four">
       <div className="shane_tm_hero" id="home" data-style="one">
         <div className="background">
@@ -57,6 +57,7 @@ const Slider = () => {
         {/* End .container */}
       </div>
     </div>
+    </Particles>
   );
 };
 
