@@ -5,8 +5,9 @@ import tsParticles  from "tsparticles";
 
 const Slider = () => {
   return (
-    <Particles>
+    
     <div className="slider-four">
+      <Particles></Particles>
       <div className="shane_tm_hero" id="home" data-style="one">
         <div className="background">
           <div
@@ -58,7 +59,7 @@ const Slider = () => {
         {/* End .container */}
       </div>
     </div>
-    </Particles>
+    
   );
 };
 
