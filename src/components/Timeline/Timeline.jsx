@@ -47,7 +47,7 @@ const Timeline = () => {
     <h3 className="vertical-timeline-element-title">Senior Enterprise System Architect</h3>
     <h3 className="vertical-timeline-element-subtitle">Wexner Medical Center</h3>
     <p>
-      Strategic Direction, User Experience, Visual Design, Project Management, Change Management
+      Strategic Direction, Visual Design, Automation, Change Management, Intergration 
     </p>
   </VerticalTimelineElement>
   </div>
@@ -144,7 +144,7 @@ const Timeline = () => {
     <h3 className="vertical-timeline-element-title">System Administrator</h3>
     <h3 className="vertical-timeline-element-subtitle">The Ohio State University</h3>
     <p>
-      Solution Design & Implementation, Change Management, Data Governance, Process Improvements
+      Solution Design & Implementation, Change Management, Data Governance, Cross-platform Integration
     </p>
   </VerticalTimelineElement>
   </div><br></br><br></br>
