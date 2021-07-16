@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
 import Social from "../SocialTwo";
 import { NavLink } from "react-router-dom";
-import ReactGA from 'react-ga';
+
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -21,9 +21,7 @@ const Header = () => {
 
   return (
     <>
-    ReactGA.initialize('T4S9XBDH25');
-    ReactGA.pageview(window.location.pathname + window.location.search);
-    
+   
       <div className="shane_tm_topbar">
         <div className={navbar ? "topbar_inner opened" : "topbar_inner"}>
         <div className="logo"> <NavLink to="/"> <img src="/resume/img/logo/new/dark.png" alt="partners brand" /> </NavLink>  </div> 
