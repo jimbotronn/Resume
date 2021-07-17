@@ -5,6 +5,7 @@ import Contact from "../Contact";
 import Reveal from "react-reveal/Reveal";
 import Social from "../Social";
 import { InlineWidget } from "react-calendly";
+import { PopupWidget } from "react-calendly"
 
 
 Modal.setAppElement("#root");
@@ -45,7 +46,12 @@ const CallToActionTwo = () => {
             <button className="white-fill-bg" onClick={toggleModalOne}>
                 Make an enquiry
               </button>
-
+              <PopupWidget
+     color="#00a2ff"
+     text="  Make an enquiry"
+     textColor="#ffffff"
+     url="https://calendly.com/jimiyu"
+   />
             </div>
           </Reveal>
         </div>
@@ -70,70 +76,13 @@ const CallToActionTwo = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               {/* Start modal content */}
-              <InlineWidget url="https://calendly.com/jimiyu" />
-
               <div className="title">
                 <h3>Get in touch</h3>
               </div>
               {/* End title */}
-
-              <div className="wrapper">
-                <div className="left">
-                  <div className="fields">
-                    <Contact />
-                  </div>
-                </div>
-                {/* End left */}
-                <div className="right">
-                  <div className="map_wrap">
-                    <Map />
-                  </div>
-                </div>
-                {/* End right */}
-              </div>
+              <InlineWidget url="https://calendly.com/jimiyu" />
               {/* End wrapper */}
 
-              <div className="short_info">
-                <ul>
-                  <li>
-                    <div className="list_inner">
-                      <img
-                        className="svg"
-                        src="img/svg/location.svg"
-                        alt="location"
-                      />
-                      <p>Brook 103, 90021 New York, USA</p>
-                    </div>
-                  </li>
-                  {/* End silgle address */}
-
-                  <li>
-                    <div className="list_inner">
-                      <img
-                        className="svg"
-                        src="img/svg/phone.svg"
-                        alt="phone"
-                      />
-                      <p>
-                        <a href="tel:+77 033 442 55 57">+77 033 442 55 57</a>
-                      </p>
-                    </div>
-                  </li>
-                  {/* End silgle address */}
-
-                  <li>
-                    <div className="list_inner">
-                      <img
-                        className="svg"
-                        src="img/svg/share.svg"
-                        alt="share"
-                      />
-                      <Social />
-                    </div>
-                  </li>
-                  {/* End silgle address */}
-                </ul>
-              </div>
               {/* End modal conetent */}
             </div>
           </div>
