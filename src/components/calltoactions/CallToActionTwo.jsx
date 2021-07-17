@@ -61,16 +61,17 @@ const CallToActionTwo = () => {
       >
         <div className="shane_tm_mobalbox_contact">
           <button className="close-modal" onClick={toggleModalOne}>
-            <img src="/img/svg/cancel.svg" alt="close icon" />
+            <img src="/resume/img/svg/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
      
-<div class="calendly-inline-widget" data-url="https://calendly.com/jimiyu" style="min-width:320px;height:630px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 
           <div className="box_inner">
             <div className="description_wrap scrollable">
               {/* Start modal content */}
+              <div class="calendly-inline-widget" data-url="https://calendly.com/jimiyu" style="min-width:320px;height:630px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
               <div className="title">
                 <h3>Get in touch</h3>
               </div>
