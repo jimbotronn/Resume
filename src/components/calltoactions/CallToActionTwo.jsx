@@ -4,7 +4,7 @@ import Map from "../Map";
 import Contact from "../Contact";
 import Reveal from "react-reveal/Reveal";
 import Social from "../Social";
-import InlineWidget  from "react-calendly";
+import { InlineWidget } from "react-calendly";
 
 
 Modal.setAppElement("#root");
