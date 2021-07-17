@@ -64,6 +64,10 @@ const CallToActionTwo = () => {
             <img src="/img/svg/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
+     
+<div class="calendly-inline-widget" data-url="https://calendly.com/jimiyu" style="min-width:320px;height:630px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
           <div className="box_inner">
             <div className="description_wrap scrollable">
               {/* Start modal content */}
