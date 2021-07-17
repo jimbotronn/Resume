@@ -40,7 +40,7 @@ const AboutFour = () => {
                   </p>
                 </div>
                 <div className="shane_tm_button">
-                  <a href="https://onedrive.live.com/download?cid=17265926575B50C4&resid=17265926575B50C4%2118646&authkey=ANXU-dgf-WSZXpE&em=2" download>
+                  <a href="https://onedrive.live.com/download?cid=17265926575B50C4&resid=17265926575B50C4%2118646&authkey=ANXU-dgf-WSZXpE&em=2" target="_blank">
                     Download CV
                   </a>
                 </div>
