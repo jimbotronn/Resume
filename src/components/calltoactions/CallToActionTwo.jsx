@@ -64,12 +64,76 @@ const CallToActionTwo = () => {
             <img src="/img/svg/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
-        
-<div class="calendly-inline-widget" data-url="https://calendly.com/jimiyu" style="min-width:320px;height:630px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+          <div className="box_inner">
+            <div className="description_wrap scrollable">
+              {/* Start modal content */}
+              <div className="title">
+                <h3>Get in touch</h3>
+              </div>
+              {/* End title */}
 
+              <div className="wrapper">
+                <div className="left">
+                  <div className="fields">
+                    <Contact />
+                  </div>
+                </div>
+                {/* End left */}
+                <div className="right">
+                  <div className="map_wrap">
+                    <Map />
+                  </div>
+                </div>
+                {/* End right */}
+              </div>
+              {/* End wrapper */}
+
+              <div className="short_info">
+                <ul>
+                  <li>
+                    <div className="list_inner">
+                      <img
+                        className="svg"
+                        src="img/svg/location.svg"
+                        alt="location"
+                      />
+                      <p>Brook 103, 90021 New York, USA</p>
+                    </div>
+                  </li>
+                  {/* End silgle address */}
+
+                  <li>
+                    <div className="list_inner">
+                      <img
+                        className="svg"
+                        src="img/svg/phone.svg"
+                        alt="phone"
+                      />
+                      <p>
+                        <a href="tel:+77 033 442 55 57">+77 033 442 55 57</a>
+                      </p>
+                    </div>
+                  </li>
+                  {/* End silgle address */}
+
+                  <li>
+                    <div className="list_inner">
+                      <img
+                        className="svg"
+                        src="img/svg/share.svg"
+                        alt="share"
+                      />
+                      <Social />
+                    </div>
+                  </li>
+                  {/* End silgle address */}
+                </ul>
               </div>
               {/* End modal conetent */}
+            </div>
+          </div>
+          {/* End box inner */}
+        </div>
         {/* End modalbox news */}
       </Modal>
       {/* End modal */}
