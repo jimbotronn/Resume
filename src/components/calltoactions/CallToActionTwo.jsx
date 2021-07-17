@@ -4,6 +4,7 @@ import Map from "../Map";
 import Contact from "../Contact";
 import Reveal from "react-reveal/Reveal";
 import Social from "../Social";
+import InlineWidget  from "react-calendly";
 
 
 Modal.setAppElement("#root");
@@ -69,8 +70,7 @@ const CallToActionTwo = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               {/* Start modal content */}
-              <div class="calendly-inline-widget" data-url="https://calendly.com/jimiyu" style="min-width:320px;height:630px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+              <InlineWidget url="https://calendly.com/jimiyu" />
 
               <div className="title">
                 <h3>Get in touch</h3>
