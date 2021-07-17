@@ -47,10 +47,11 @@ const CallToActionTwo = () => {
                 Make an enquiry
               </button>
               <PopupButton
+              className="white-fill-bg"
      color="#00a2ff"
      text="  Make an enquiry"
      textColor="#ffffff"
-     url="https://calendly.com/jimiyu"
+     url="https://calendly.com/jimiyu/web"
    />
             </div>
           </Reveal>
