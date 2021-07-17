@@ -5,7 +5,7 @@ import Contact from "../Contact";
 import Reveal from "react-reveal/Reveal";
 import Social from "../Social";
 import { InlineWidget } from "react-calendly";
-import { PopupWidget } from "react-calendly"
+import { PopupButton } from "react-calendly"
 
 
 Modal.setAppElement("#root");
@@ -46,7 +46,7 @@ const CallToActionTwo = () => {
             <button className="white-fill-bg" onClick={toggleModalOne}>
                 Make an enquiry
               </button>
-              <PopupWidget
+              <PopupButton
      color="#00a2ff"
      text="  Make an enquiry"
      textColor="#ffffff"
