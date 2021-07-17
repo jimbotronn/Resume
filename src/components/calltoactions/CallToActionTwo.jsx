@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import Map from "../Map";
-import Contact from "../Contact";
 import Reveal from "react-reveal/Reveal";
-import Social from "../Social";
-import { InlineWidget } from "react-calendly";
 import { PopupButton } from "react-calendly"
 
 
@@ -43,10 +39,7 @@ const CallToActionTwo = () => {
           </Reveal>
           <Reveal effect="fadeInUp">
             <div className="button">
-            <button className="white-fill-bg" onClick={toggleModalOne}>
-                Make an enquiry
-              </button>
-              <PopupButton
+               <PopupButton
               className="white-fill-bg"
      color="#00a2ff"
      text="  Make an enquiry"
@@ -58,40 +51,7 @@ const CallToActionTwo = () => {
         </div>
         {/* End talk_inner */}
       </div>
-      {/* Start Modal */}
-      <Modal
-        isOpen={isOpen}
-        onRequestClose={toggleModalOne}
-        contentLabel="My dialog"
-        className="custom-modal"
-        overlayClassName="custom-overlay"
-        closeTimeoutMS={500}
-      >
-        <div className="shane_tm_mobalbox_contact">
-          <button className="close-modal" onClick={toggleModalOne}>
-            <img src="/resume/img/svg/cancel.svg" alt="close icon" />
-          </button>
-          {/* End close icon */}
-     
 
-          <div className="box_inner">
-            <div className="description_wrap scrollable">
-              {/* Start modal content */}
-              <div className="title">
-                <h3>Get in touch</h3>
-              </div>
-              {/* End title */}
-              <InlineWidget url="https://calendly.com/jimiyu" />
-              {/* End wrapper */}
-
-              {/* End modal conetent */}
-            </div>
-          </div>
-          {/* End box inner */}
-        </div>
-        {/* End modalbox news */}
-      </Modal>
-      {/* End modal */}
     </div>
   );
 };
