@@ -1,11 +1,5 @@
-import React ,{ Component } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import SimpleReactLightbox from "simple-react-lightbox";
-import { SRLWrapper } from "simple-react-lightbox";
+import React  from "react";
 import Reveal from "react-reveal/Reveal";
-import { FaHtml5, FaReact, FaShopify}from 'react-icons/fa';
-import { IoLogoJavascript, IoLogoCss3 } from "react-icons/io5";
-import { MdWeb, MdDeveloperMode } from "react-icons/md";
 
 
 const PortfolioTwo = () => {

@@ -1,9 +1,8 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import Icon from 'react-component-bytesize-icons';
 import 'react-vertical-timeline-component/style.min.css';
 import React, { useState } from "react";
 import Modal from "react-modal";
-import Reveal from "react-reveal/Reveal";
+
 
 Modal.setAppElement("#root");
 
