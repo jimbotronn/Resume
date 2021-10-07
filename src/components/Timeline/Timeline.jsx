@@ -12,6 +12,7 @@ const Timeline = () => {
     const [isOpen2, setIsOpen2] = useState(false);
     const [isOpen3, setIsOpen3] = useState(false);
     const [isOpen4, setIsOpen4] = useState(false);
+    const [isOpen5, setIsOpen5] = useState(false);
   
     function toggleModalOne() {
       setIsOpen(!isOpen);
@@ -25,7 +26,9 @@ const Timeline = () => {
     function toggleModalFour() {
       setIsOpen4(!isOpen4);
     }
-  
+    function toggleModalFive() {
+      setIsOpen5(!isOpen5);
+    }
     return (
 
         <div className="shane_tm_section" id="timeline">
@@ -36,6 +39,83 @@ const Timeline = () => {
             <h3>Professional & Relevant Experience</h3>
           </div>
 <VerticalTimeline>
+<div className="list_inner" onClick={toggleModalFive}>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work list_inner5"
+    contentArrowStyle={{ borderRight: '7px solid  #2f8884' }}
+    position="right"
+    date="2021 - Present"
+    iconStyle={{ background: '#2f8884', color: '#fff' }}
+    >
+    <h3 className="vertical-timeline-element-title">Senior Business System Analyst</h3>
+    <h3 className="vertical-timeline-element-subtitle">Hubspot</h3>
+    <p>
+      Process Optimization, Automation, Change Management, Intergration 
+    </p>
+  </VerticalTimelineElement>
+  </div>
+   <Modal
+                      isOpen={isOpen5}
+                      onRequestClose={toggleModalFive}
+                      contentLabel="My dialog"
+                      className="custom-modal"
+                      overlayClassName="custom-overlay"
+                      closeTimeoutMS={500}
+                    >
+                      <div className="shane_tm_modalbox_news">
+                        <button
+                          className="close-modal"
+                          onClick={toggleModalFive}
+                        >
+                          <img src="/resume/img/svg/cancel.svg" alt="close icon" />
+                        </button>
+                        {/* End close icon */}
+                        <div className="box_inner">
+                          <div className="description_wrap scrollable">
+                            <div className="image">
+                              <img
+                                src="/resume/img/placeholders/4-3.jpg"
+                                alt="thumb"
+                              />
+                              <div
+                                className="main"
+                                style={{
+                                  backgroundImage: `url(${
+                                    process.env.PUBLIC_URL + "/img/news/Hubspot.png"
+                                  })`,
+                                }}
+                              ></div>
+                            </div>
+                            {/* End image */}
+                            <div className="details">
+                              <h3 className="title">
+                              Senior Business System Analyst
+                              </h3>
+                              <p className="date">
+                              @ Hubspot <br></br>Oct 21 - Present
+                              </p>
+                            </div>
+                            {/* End details */}
+                            <div className="description">
+                              <ul><li>
+                              Supports all areas of the business, including employee growth, 
+                              product development, sales and services, mergers & acquisitions, 
+                              data privacy and compliance, and more.
+                              </li>
+                              <li>
+                              Collaborate with operations teams across the business, other business 
+                              systems analysts, engineers, and product managers to determine best in class solutions.</li>
+                                                        </ul><br></br><br></br>
+                            </div>
+                            {/* End description */}
+                            {/* End news share */}
+                          </div>
+                        </div>
+                        {/* End box inner */}
+                      </div>
+                      {/* End modal box news */}
+                    </Modal>
+                          {/* End modal */}.
 <div className="list_inner" onClick={toggleModalOne}>
   <VerticalTimelineElement
     className="vertical-timeline-element--work list_inner1"
@@ -43,7 +123,7 @@ const Timeline = () => {
     date="2018 - 2021"
     iconStyle={{ background: '#e65948', color: '#fff' }}
     >
-    <h3 className="vertical-timeline-element-title">Senior Enterprise System Architect</h3>
+    <h3 className="vertical-timeline-element-title">Senior Business System Analyst</h3>
     <h3 className="vertical-timeline-element-subtitle">Wexner Medical Center</h3>
     <p>
       Strategic Direction, Visual Design, Automation, Change Management, Intergration 
@@ -85,7 +165,7 @@ const Timeline = () => {
                             {/* End image */}
                             <div className="details">
                               <h3 className="title">
-                              Senior Enterprise System Architect
+                              Senior Business System Analyst
                               </h3>
                               <p className="date">
                               @ Wexner Medical Center <br></br>Apr 18 - Jan 21
@@ -113,15 +193,7 @@ const Timeline = () => {
                               <li>
                               Improved critical change management effectiveness by monitoring, 
                               analyzing, and reshaping staff engagement behavior in response to changes.        </li></ul><br></br><br></br>
-                              <blockquote>
-                              In January, shortly after the launch of the new ERP system, I left my employer
-                               for over 11 years, The Ohio State University,  to avoid starting on new major 
-                               projects and to further advance my career through new opportunities. <br></br><br></br> 
-                               Since then, I took some time away from my profession and dedicated my full 
-                               attention to a high school men's volleyball team that I've coached for 13 seasons.  
-                               Pandemic lockdown abruptly ended the 2020 season and it was devastating for the players, 
-                               so I wanted to give the team my undivided attention before starting a new position.   
-                              </blockquote>
+
                             </div>
                             {/* End description */}
                             {/* End news share */}

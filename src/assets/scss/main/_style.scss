@@ -3483,7 +3483,8 @@ div#timeline {
 
 .vertical-timeline-element--work.list_inner1.vertical-timeline-element,
 .vertical-timeline-element--work.list_inner2.vertical-timeline-element,
-.vertical-timeline-element--work.list_inner3.vertical-timeline-element {
+.vertical-timeline-element--work.list_inner3.vertical-timeline-element,
+.vertical-timeline-element--work.list_inner5.vertical-timeline-element {
   margin-bottom: 3%;
 }
 
@@ -3502,6 +3503,10 @@ div#timeline {
 .list_inner4 h3 {
   color: #01354d;
 }
+.list_inner5 h3 {
+  color: #2f8884;
+}
+
 
 .vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns {
   padding-top: 15vh;
@@ -3534,10 +3539,17 @@ div#timeline {
   cursor:pointer;
 }
 
+.list_inner5 .vertical-timeline-element-content.bounce-in:hover {
+  background-color: #2f8884;
+  transition: all .5s ease-out;
+  cursor:pointer;
+}
+
 .list_inner1 .vertical-timeline-element-content.bounce-in:hover > h3,
 .list_inner2 .vertical-timeline-element-content.bounce-in:hover > h3,
 .list_inner3 .vertical-timeline-element-content.bounce-in:hover > h3,
-.list_inner4 .vertical-timeline-element-content.bounce-in:hover > h3 {
+.list_inner4 .vertical-timeline-element-content.bounce-in:hover > h3,
+.list_inner5 .vertical-timeline-element-content.bounce-in:hover > h3 {
   color: white;
   transition: all .5s ease-out;
 }
@@ -3549,7 +3561,8 @@ div#timeline {
   transition: all .5s ease-out;
 }
 
-.list_inner4 .vertical-timeline-element-content.bounce-in:hover > p {
+.list_inner4 .vertical-timeline-element-content.bounce-in:hover > p
+.list_inner5 .vertical-timeline-element-content.bounce-in:hover > p {
   color: #868686    ;
   transition: all .5s ease-out;
 }
